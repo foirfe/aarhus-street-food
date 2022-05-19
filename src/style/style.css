@@ -1,4 +1,19 @@
+:root {
+  --background: #ebdedb;
+  --stripes: #3b52c1;
+  --button: #9e34e0;
+  --burger: #e0a453;
+}
+
+.homepage {
+  background: var(--background);
+}
+
 .homepage h1 {
   color: aqua;
+}
+
+.homepage button {
+  background: var(--button);
 }
 /*# sourceMappingURL=style.css.map */
