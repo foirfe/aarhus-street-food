@@ -1,0 +1,693 @@
+[
+    {
+        "name": "Bandit Salat M/BBQ Gris",
+        "price": 65,
+        "restaurant": "Bánh Mì Bandits",
+        "desc": "Bandit Salat med BBQ marineret gris - Koriander, frisk chili, rødkål, agurk, Do Chua, ingefær-creme, hoisin-peanut-dip, soya & peanut crumble",
+        "tags": "mildt krydret",
+        "safetytags": "nuts",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/b/a/banditsalat_1.webp",
+        "id": 1
+    },
+    {
+        "name": "Bánh Mì M/BBQ Gris",
+        "price": 65,
+        "restaurant": "Bánh Mì Bandits",
+        "desc": "Bánh Mì M/BBQ Gris",
+        "tags": "mildt krydret",
+        "safetytags": "nuts",
+    "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/p/h/photo-2020-12-17-11-44-30_1_.webp",
+    "id": 2
+    },
+    {
+        "name": "Bandit Bowl M/BBQ Gris",
+        "price": 85,
+        "restaurant": "Bánh Mì Bandits",
+        "desc": "Bandit Bowl - ris med BBQ-marineret gris, koriander, frisk chili, rødkål, agurk, Do Chua, ingefær-creme, hoisin-peanut-dip, soya, peanut crumble",
+        "tags": "mildt krydret",
+        "safetytags": "nuts",
+    	"image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/p/h/photo-2020-12-17-11-47-52.webp",
+        "id": 3
+    },    
+    {
+        "name": "Bandit Salat M/Kylling",
+        "price": "",
+        "restaurant": "Bánh Mì Bandits",
+        "desc": "Bandit Salat med citrongræs-marineret kylling - koriander, frisk chili, rødkål, agurk, Do Chua, ingefær-creme, hoisin-peanut-dip, soya & peanut crumble",
+        "tags": "mildt krydret",
+        "safetytags": "nuts",
+    	"image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/b/a/banditsalat.webp",
+        "id": 4
+    },
+    {
+        "name": "Bandit Salat Vegetar",
+        "price": 55,
+        "restaurant": "Bánh Mì Bandits",
+        "desc": "Bandit Salat Vegetar - avokado, koriander, frisk chili, rødkål, agurk, Do Chua, ingefær-creme, hoisin-peanut-dip, soya & peanut crumble",
+        "tags": "mildt plantebaseret",
+        "safetytags": "nuts",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/p/h/photo-2020-12-17-11-44-30_1_1.webp",
+        "id": 5
+    },
+    {
+        "name": "Bandit Salat Vegansk",
+        "price": 55,
+        "restaurant": "Banh Mì Bandits",
+        "desc": "Vegansk Bandit Salat - avokado, koriander, frisk chili, rødkål, agurk, Do Chua, ingefær-creme, hoisin-peanut-dip, soya & peanut crumble",
+        "tags": "mildt plantebaseret",
+        "safetytags": "nuts",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/p/h/photo-2020-12-17-11-44-30_1_1_1.webp",
+        "id": 6
+    },
+    {
+        "name": "Boller I Karry",
+        "price": 60,
+        "restaurant": "Mormors Køkken",
+        "desc": "Hjemmelavede kødboller af kalv og flæsk i mild karrysovs med jasmin ris",
+        "tags": "mildt",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/d/s/dsc_0205.webp",
+        "id": 7
+    },
+    {
+        "name": "Mørbradgryde M/Ris",
+        "price": 75,
+        "restaurant": "Mormors Køkken",
+        "desc": "Mørbradgryde med champignon, løg, bacon, cocktailpølser og svinemørbrad i mild paprika-flødesovs med ris",
+        "tags": "mildt",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/s/k/sk_rmbillede_2021-01-15_kl._13.57.48.webp",
+        "id": 8
+    },
+    {
+        "name": "Mørbradgryde M/Kartoffelmos",
+        "price": 85,
+        "restaurant": "Mormors Køkken",
+        "desc": "Mørbradgryde med champignon, løg, bacon, cocktailpølser og svinemørbrad i mild paprika-flødesovs med kartoffelmos",
+        "tags": "mildt",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/s/k/sk_rmbillede_2021-01-15_kl._13.57.48_1.webp",
+        "id": 9
+    },
+    {
+        "name": "Philly Cheesesteak Sandwich",
+        "price": 75,
+        "restaurant": "We Melt",
+        "desc": "Briochebrød med mørt grillet okse, karameliserede løg, smeltet ost og mayo",
+        "tags": "mildt",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/p/h/philly_cheesesteak_sandwich.webp",
+        "id": 10
+    },
+    {
+        "name": "Flæskestegssandwich",
+        "price": 75,
+        "restaurant": "We Melt",
+        "desc": "",
+        "tags": "mildt",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img_20220505_145505_1.webp",
+        "id": 11
+    },
+    {
+        "name": "Klassisk Skinke/Ost Toast",
+        "price": 55,
+        "restaurant": "We Melt",
+        "desc": "Klassisk toast med skinke, mozzarella, cheddar, vesterhavs ost og dijon sennep.",
+        "tags": "mildt",
+        "safetytags": "laktose gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/c/l/classic_toast.webp",
+        "id": 12
+    },
+    {
+        "name": "Empanadas 3 Stk",
+        "price": 80,
+        "restaurant": "Lima Empanadas",
+        "desc": "Vælg i mellem forskellige fyld",
+        "tags": "plantebaseret spicy",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/d/s/dsc02291.webp",
+        "id": 13
+    },  
+    {
+        "name": "Empanadas 2 Stk",
+        "price": 55,
+        "restaurant": "Lima Empanadas",
+        "desc": "Vælg imellem forskellige fyld",
+        "tags": "plantebaseret spicy",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/d/s/dsc02277.webp",
+        "id": 14
+    },
+    {
+        "name": "Empanadas 8 Stk",
+        "price": 210,
+        "restaurant": "Lima Empanadas",
+        "desc": "Vælg imellem forskellige fyld",
+        "tags": "plantebaseret spicy",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/d/s/dsc02305.webp",
+        "id": 15
+    },
+    {
+        "name": "3 Falafler Med Hummus Og Grøn Tahini",
+        "price": 25,
+        "restaurant": "Za'atar",
+        "desc": "Hjemmelavede, lækre og sprøde falafler - kikærter, persille, koriander og hvidløg. Perfekte til at dyppe i vores mix af hummus og grøn tahini",
+        "tags": "krydret smasulten",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/s/k/sk_rmbillede_2021-06-09_kl._11.56.21.webp",
+        "id": 16
+    },
+    {
+        "name": "Malawach Brød",
+        "price": 25,
+        "restaurant": "Za'atar",
+        "desc": "Malawach er fladbrød lavet af tynde lag af butterdej - perfect til at dyppe i hummus og grøn tahini.",
+        "tags": "mildt smasulten",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/b/r/bread_and_hummus.webp",
+        "id": 17
+    },
+    {
+        "name": "Falafel Bowl",
+        "price": 65,
+        "restaurant": "Za'atar",
+        "desc": "Falafel bowle med kikærte salat, tabbouleh salat, feta, granatæble, Za'atar yoghurt dressing samt hummus med grøn tahini",
+        "tags": "spicy krydret",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/f/a/falafel_bowl_1_.webp",
+        "id": 18
+    },
+    {
+        "name": "Bibimbap - Oksekød - Lille",
+        "price": 75,
+        "restaurant": "Bap",
+        "desc": "Marineret oksekød, champignon, gulerødder, zucchini, løg, syltet kinaradisser og salat på ris med æg & hjemmelavet sauce.",
+        "tags": "mildt",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/1/_/1._bibimbap-beef_big_and_small_1_.webp",
+        "id": 19
+    },
+    {
+        "name": "Japchae - Vegetar",
+        "price": 75,
+        "restaurant": "Bap",
+        "desc": "Marineret sweet potato glasnudler med spinat, løg champignon, gulerødder & peberfrugt. ",
+        "tags": "soedt mildt",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/5/_/5._japchae_1__1.webp",
+        "id": 20
+    },
+    {
+        "name": "Korean Fried Chicken Meal",
+        "price": 85,
+        "restaurant": "Bap",
+        "desc": "12 bidder af stegt kyllingelår med sød krydret sauce sammen med jordnøddesgarn, dampet ris og salat med thousand island dressing",
+        "tags": "friture krydret",
+        "safetytags": "nuts",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/8/_/8._korean_fried_chicken_1_.webp",
+        "id": 21
+    },
+    {
+        "name": "Pizza Parmaskinke & Rucola",
+        "price": 30,
+        "restaurant": "La Rossa",
+        "desc": "Parmaskinke, Rucola & Mozzarella",
+        "tags": "smasulten mildt smasulten",
+        "safetytags": "laktose gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img_0206.webp",
+        "id": 22
+    },
+    {
+        "name": "Pizza Hot",
+        "price": 30,
+        "restaurant": "La Rossa",
+        "desc": "Stærk Salami, Mozzarella & Stærk Tomatsauce - Meget hot!",
+        "tags": "spicy krydret smasulten",
+        "safetytags": "laktose gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img_e0126.webp",
+        "id": 23
+    },
+    {
+        "name": "Pizza Hot Dog",
+        "price": 30,
+        "restaurant": "La Rossa",
+        "desc": "Pølse indbagt i pizzadej",
+        "tags": "mildt smasulten",
+        "safetytags": "gluten laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img_0178_1.webp",
+        "id": 24
+    },
+    {
+        "name": "Nachos",
+        "price": 50,
+        "restaurant": "Mad Mex",
+        "desc": "Hjemmelavede lune nachos med queso ostesauce og hjemmelavet salsa",
+        "tags": "smasulten mildt",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/n/a/nachos_cheese_and_salsa.webp",
+        "id": 25
+    },
+    {
+        "name": "Loaded Nachos",
+        "price": 75,
+        "restaurant": "Mad Mex",
+        "desc": "Hjemmelavede nachos - pulled pork, majs, queso ostesauce, jalapenos, creme fraiche & hjemmelavet salsa",
+        "tags": "smasulten spicy",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/l/o/loaded_nachos.webp",
+        "id": 26
+    },
+    {
+        "name": "Burrito Bowl",
+        "price": 75,
+        "restaurant": "Mad Mex",
+        "desc": "Burrito Bowl - mexikansk ris, spidskål, løg, bønner, creme fraiche, hjemmelavet salsa, koriander, syltet løg",
+        "tags": "krydret",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/k/y/kyllinge_bowl.webp",
+        "id": 27
+    },
+    {
+        "name": "Rulle - Kebab",
+        "price": 65,
+        "restaurant": "Turkish Grillhouse",
+        "desc": "Rulle med ægte tyrkisk döner kebab, salat, tomat/agurkemix, majs, løg, syltede løg & syltet rødkål.",
+        "tags": "mildt",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/r/u/rullemkebab.webp",
+        "id": 28
+    },
+    {
+        "name": "Gobit - Grillet Kylling",
+        "price": 65,
+        "restaurant": "Turkish Grillhouse",
+        "desc": "Gobit med grillet kylling, salat, tomat/agurkemix, majs, løg, syltede løg & syltet rødkål.",
+        "tags": "mildt",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/g/o/gobit-kebab-1_1.webp",
+        "id": 29
+    },
+    {
+        "name": "Grill Tallerken - Lam",
+        "price": 105,
+        "restaurant": "Turisk Grillhouse",
+        "desc": "Tallerken med lam hertil salat, tomat/agurkemix, majs, løg, syltede løg, syltet rødkål, tzatziki & ris med tomat sauce",
+        "tags": "mildt krydret",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/l/a/lam.webp",
+        "id": 30
+    },
+    {
+        "name": "Friteret Kylling",
+        "price": 35,
+        "restaurant": "Super Bao",
+        "desc": "Bao - Friteret sprød kylling, kimchi, friske urter & chili mayo.",
+        "tags": "friture",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/b/a/bao_w_fried_chicken.webp_.webp",
+        "id": 31
+    },
+    {
+        "name": "Sushi Bowl - Spicy Tuna",
+        "price": 80,
+        "restaurant": "Super Bao",
+        "desc": "Sushi bowl med sushi-quinoa ris, spicy tuna, syltede grøntsager, tangsalat, kimchi, avocado, karse, ingefærløg topping & spinat.",
+        "tags": "mildt",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/t/u/tuna_poke_.webp",
+        "id": 32
+    },
+    {
+        "name": "Bao - Vegansk",
+        "price": 35,
+        "restaurant": "Super Bao",
+        "desc": "Bao - sprød kartoffel & spinat krokette, ingefærsløg topping, kimchi, avocado & goma sauce.",
+        "tags": "plantebaseret krydret",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/b/a/bao_vegan.webp_.webp",
+        "id": 33
+    },
+    {
+        "name": "Grillet Rejespyd",
+        "price": 90,
+        "restaurant": "Acquolina",
+        "desc": "Grillet rejespyd - italiensk kartoffelmos,  salat - rucola, cherrytomater, mozzarella, balsamico & mayo, hjemmelavet piadina - tomatsauce & mozzarella",
+        "tags": "mildt",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/image1_4_.webp",
+        "id": 34
+    },
+    {
+        "name": "PannaCotta",
+        "price": 35,
+        "restaurant": "Acquolina",
+        "desc": "Hjemmelavet panna cotta  -  blåbær samt  jordbær & lemonsauce",
+        "tags": "sodt smasulten",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/image0_8_.webp",
+        "id": 35
+    },
+    {
+        "name": "Risotto - Safran",
+        "price": 70,
+        "restaurant": "Acquolina",
+        "desc": "Risotto - safran, taleggio flødeost, persille & salsiccia pølse",
+        "tags": "mildt",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img_9963.webp",
+        "id": 36
+    },
+    {
+        "name": "BBQ Style",
+        "price": 80,
+        "restaurant": "Fry'It",
+        "desc": "Hjemmelavede triple kogte Fry’it Fries - Bbq svin, forårsløg, aioli, lime, syltede rødløg & poppede kartofler",
+        "tags": "friture krydret",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/_/m/_mg_4385_copy.webp",
+        "id": 37
+    },
+    {
+        "name": "Spicy Chicken Style",
+        "price": 75,
+        "restaurant": "Fry'It",
+        "desc": "Hjemmelavdede triple kogte Fry’it Fries -  grillet kylling i spicy tomatsauce, chipotle mayo, persille & lime",
+        "tags": "spicy krydret friture",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/_/m/_mg_4364_copy.webp",
+        "id": 38
+    },
+    {
+        "name": "Crispy Southern Fried Chicken",
+        "price": 45,
+        "restaurant": "Fry'It",
+        "desc": "Kærnemælk marineret kylling med cajun krydderier",
+        "tags": "friture smasulten",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/2/0/20220407_151159_1.webp",
+        "id": 39
+    },
+    {
+        "name": "Milkshakes",
+        "price": 45,
+        "restaurant": "Juicen",
+        "desc": "Syndige shakes for enhver smag. Lavet på en base af sødmælk og masser af flødeis.",
+        "tags": "sodt smasulten",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img_6168.webp",
+        "id": 40
+    },
+    {
+        "name": "Smoothie Med Mango, Passion Og Yoghurt",
+        "price": 45,
+        "restaurant": "Juicen",
+        "desc": "Eksotisk og fyldig smoothie bestående af mango, passion, og yoghurt.",
+        "tags": "sodt smasulten",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img_6125.webp",
+        "id": 41
+    },
+    {
+        "name": "Smoothie Med Blåbær, Banan Og Yoghurt",
+        "price": 45,
+        "restaurant": "Juicen",
+        "desc": "Fyldig smoothie bestående af blåbær, banan, og yoghurt",
+        "tags": "sodt smasulten",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img_6139.webp",
+        "id": 42
+    },  
+    {
+        "name": "Brownie",
+        "price": 40,
+        "restaurant": "Kagen",
+        "desc": "Lun brownie serveret med et scoop vaniljeis, valgfri sauce, og toppings.",
+        "tags": "sodt smasulten",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/b/r/brownie.webp",
+        "id": 43
+    },
+    {
+        "name": "Belgisk Vaffel Med Is",
+        "price": 45,
+        "restaurant": "Kagen",
+        "desc": "Hjemmelavet belgisk vaffel med valgfri flødeis, saucer, og toppings",
+        "tags": "sodt",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/v/a/vaffelbillede.webp",
+        "id": 44
+    },
+    {
+        "name": "Cheesecake Hindbær/Lime",
+        "price": 35,
+        "restaurant": "Kagen",
+        "desc": "Hjemmelavet cheesecake på en sprød bund af digistive kiks, og mousse med hindbær og lime. Toppet med hindbærgelé.",
+        "tags": "sodt",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/1/6/16a1b7e6-636a-4077-af5c-dba8aa8422fb_1_8.webp",
+        "id": 45
+    },
+    {
+        "name": "Jamaican Jerk Pork",
+        "price": 85,
+        "restaurant": "Tatashe",
+        "desc": "Hvidvin- og jerkmarineret pulled pork med stegte grøntsager, grillet krydret majskolbe & ovnbagte kartofler eller kokosris",
+        "tags": "mildt krydret",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/j/a/jamaican_jerk_pork_2_1_.webp",
+        "id": 46
+    },
+    {
+        "name": "Meat Lover Combo",
+        "price": 125,
+        "restaurant": "Tatashe",
+        "desc": "Jamaican pulled pork, jerk chicken & krydret suya beef m. lynstegte grøntsager, grillet spidskål med Tatashe dressing & pankorasp - serveres med ovnbagte kartofler eller kokosris",
+        "tags": "mildt krydret",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/c/a/caribbeanjerkchicken_2_.webp",
+        "id": 47
+    },
+    {
+        "name": "Rasta Ribs",
+        "price": 85,
+        "restaurant": "Tatashe",
+        "desc": "Caribbean style spareribs med hjemmelavet barbeque sauce & coleslaw - serveres med ovnbagte kartofler eller kokosris",
+        "tags": "mildt krydret",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/r/a/rasta_ribs_1_.webp",
+        "id": 48
+    },
+    {
+        "name": "Chili Chicken",
+        "price": 90,
+        "restaurant": "The Everest Kitchen",
+        "desc": "Stegt marineret kylling - krydret karrysauce, stegte tomater, peberfrugt, ingefær & løg - Serveres med ris.",
+        "tags": "spicy krydret",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/c/h/chilly_chicken.webp",
+        "id": 49
+    },
+    {
+        "name": "Palak Paneer",
+        "price": 85,
+        "restaurant": "The Everest Kitchen",
+        "desc": "Spinat kogt med paneer ost -  Serveres med ris.",
+        "tags": "mildt",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/p/a/palak_paneer.webp",
+        "id": 50
+    },
+    {
+        "name": "Creamy Chicken",
+        "price": 90,
+        "restaurant": "The Everest Kitchen",
+        "desc": "Kylling - cremet mild krydret tomat- & flødesauce - Serveres med ris.",
+        "tags": "mildt spicy",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img-4398.webp",
+        "id": 51
+    },
+    {
+        "name": "Fish & Chips Bakke",
+        "price": 120,
+        "restaurant": "Danyar Fish & Chips",
+        "desc": "Stor fish & chips m. dip",
+        "tags": "mildt friture",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/b/a/bakke.webp",
+        "id": 52
+    },
+    {
+        "name": "Fish & Chips Kræmmerhus",
+        "price": 70,
+        "restaurant": "Danyar Fish & Chips",
+        "desc": "Fish & Chips i kræmmerhus",
+        "tags": "friture",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/k/r/kr_mmerhus.webp",
+        "id": 53
+    },
+    {
+        "name": "Fiskeburger Menu",
+        "price": 110,
+        "restaurant": "Danyar Fish & Chips",
+        "desc": "Burger med salat, agurk, løg, mayo & tatare sauce",
+        "tags": "mildt friture",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/b/u/burgermenu.webp",
+        "id": 54
+    },
+    {
+        "name": "Pasta Carbonara",
+        "price": 70,
+        "restaurant": "Delicatezze Pasta Fresca",
+        "desc": "Mezze maniche pasta med en cremet ostesauce & stegt bacon - Elsket af børn & voksne!",
+        "tags": "mildt",
+        "safetytags": "laktose gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img-20220302-wa0058.webp",
+        "id": 55
+    },
+    {
+        "name": "Fettuccine Bolognese",
+        "price": 70,
+        "restaurant": "Delicatezze Pasta Fresca",
+        "desc": "Hjemmelavet fettuccine med bolognese af okse",
+        "tags": "mildt krydret",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/f/e/fettuccine_bolognese_70-.webp",
+        "id": 56
+    },
+    {
+        "name": "Fettuccine - Trøffel & Champignon",
+        "price": 70,
+        "restaurant": "Delicatezze Pasta Fresca",
+        "desc": "Hjemmelavet fettuccine - trøffel & champignon sauce",
+        "tags": "mildt ",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/1/6/162851288_1350775281957906_544917873285642650_n.webp",
+        "id": 57
+    },
+    {
+        "name": "Chicken Cæsar Bowl",
+        "price": 90,
+        "restaurant": "Green Neighbour",
+        "desc": "Chicken Cæsar Bowl - cherry tomater, varm kylling, kål, knasende croutoner, frisk revet parmesanost, varm quinoa & bulgur - med Cæsar dressing tilsmagt med rosmarin",
+        "tags": "plantebaseret mildt",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/c/i/cicken_c_sar_1.webp",
+        "id": 58
+    },
+    {
+        "name": "Beet The Kale Bowl",
+        "price": 90,
+        "restaurant": "Green Neighbour",
+        "desc": "Marokkansk inspireret bowl - frisk spinat, bagt rødbede, linser, grønkål, solsikkecrunch, ægte græsk feta, sprøde rødløg og cherrytomater - med marokkansk dressing.",
+        "tags": "plantebaseret",
+        "safetytags": "laktose",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/b/e/beet_the_kale_1.webp",
+        "id": 59
+    },
+    {
+        "name": "Pesto Chicken Bowl",
+        "price": 90,
+        "restaurant": "Green Neighbour",
+        "desc": "Pesto Chicken Bowl - varm kylling, sprød broccoli, cherrytomater, spinat, grønkål, solsikke crunch, friskrevet parmesan, varm quinoa & bulgur - med frisk pesto vinaigrette.",
+        "tags": "plantebaseret",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/p/e/pesto_chicken_bowl_1.webp",
+        "id": 60
+    },
+    {
+        "name": "Duck Me Burger",
+        "price": 85,
+        "restaurant": "Duck It",
+        "desc": "Burger med confiteret and, syltede rødløg, dressing og salat i en brioche bolle",
+        "tags": "friture",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/d/u/duck_me.webp",
+        "id": 63
+    },
+    {
+        "name": "Spicy Duck Burger",
+        "price": 90,
+        "restaurant": "Duck It",
+        "desc": "Burger med confiteret and, syltede rødløg, chilimayo og salat i en brioche bolle",
+        "tags": "friture spicy",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/s/p/spicy_duck.webp",
+        "id": 64
+    },
+    {
+        "name": "Duck And Chips",
+        "price": 85,
+        "restaurant": "Duck It",
+        "desc": "Pommes frites med confiteret and, timian, rosmarin, syltede rødløg og dressing",
+        "tags": "friture",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/d/u/duck_n_chips.webp",
+        "id": 65
+    },
+    {
+        "name": "Crêpe Nutella",
+        "price": 45,
+        "restaurant": "The French Corner",
+        "desc": "Den klassikes franske dessertpandekage - vælg nedenfor",
+        "tags": "sodt",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/c/r/cre_pe_nutella.webp",
+        "id": 66
+    },
+    {
+        "name": "The World Champion 2.0",
+        "price": 70,
+        "restaurant": "The French Corner",
+        "desc": "Klassisk fransk dessert pandekage med Nutella, Banana, Oreo & Kinder Bueno - vælg vaniljeis nedenfor",
+        "tags": "sodt",
+        "safetytags": "laktose nuts",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/t/h/the_world_champion_nutella_banane_oreo_and_bueno_1.webp",
+        "id": 67
+    },
+    {
+        "name": "La Compléte",
+        "price": 50,
+        "restaurant": "The French Corner",
+        "desc": "Boghvede pandekager med skinke, ost og scrambled eggs",
+        "tags": "mildt",
+        "safetytags": "laktose gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img_6545.webp",
+        "id": 68
+    },
+    {
+        "name": "Green Mix Haloumi",
+        "price": 65,
+        "restaurant": "Tza Tzi Ki",
+        "desc": "Græsk salat - sprød salatmix, soltørrede tomat, granatæble- & pinjekerner, grillet haloumi ost & balsamico vinaigrette.",
+        "tags": "mildt",
+        "safetytags": "nuts",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/g/r/green_mix_haloumi.webp",
+        "id": 69
+    },
+    {
+        "name": "Grill Spyd - Svinekød",
+        "price": 85,
+        "restaurant": "Tza Tzi Ki",
+        "desc": "2 spyd med grillet svinekød - fladbrød, tzatziki, tomat, løg og persille sauce, samt græske ovnstegte kartofler eller pommes frites.",
+        "tags": "mildt",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/p/o/pork_skewers.webp",
+        "id": 70
+    },
+    {
+        "name": "Souvlaki - Gris",
+        "price": 60,
+        "restaurant": "Tza Tzi Ki",
+        "desc": "Græsk fladbrød - svinekød, tzatziki, løg, tomat og pommes frites",
+        "tags": "mildt",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/s/o/souvlaki_bifteki.webp",
+        "id": 71
+    }
+
+]

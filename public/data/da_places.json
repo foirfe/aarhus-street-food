@@ -1,0 +1,255 @@
+[
+    {
+        "name": "Den Blå Bar",
+        "id": 1,
+        "desc": "",
+        "nationality": "Dansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/logo_bla_bar.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/image0_7_.jpeg"
+    },
+    {
+        "name": "Udebar",
+        "id": 2,
+        "desc": "Udebaren tilbyder et bredt udvalg af mange af de produkter, som du finder i vores barer indenfor. Du finder alt fra sodavand og fadøl, til vin, bobler & cocktails. Sidder du og hygger i vores store udeområde, så kan du bestille og afhente dine drikkevarer her",
+        "nationality": "Dansl",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/ASFlogoer_Ude.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/udebar_1.jpeg"
+    },
+    {
+        "name": "Ølbaren",
+        "id": 3,
+        "desc": "Ølbaren har hele 30 øl på hane og mere end 140 forskellige specialøl på hylderne at vælge imellem. Vi sætter en ære i at have et spændende og varieret udvalg, inden for alle genrer, så der er noget for enhver smag. I Ølbaren er fokusset på øl. Kvalitetsøl. Desuden gør vi en dyd ud af at skifte løbende ud på hanerne, så udvalget aldrig er helt det samme. Selvom udvalget skifter, har vi som regel flere varianter indenfor alle typer, så du altid kan finde en øl du kan lide, og en øl der passer til din mad. Er du i tvivl, står vores tendere klar med rådgivning, og du kan få en lille smagsprøve inden du bestiller din øl.",
+        "nationality": "Dansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/ASFlogoer__L_1.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/_lbar.jpg"
+    },
+    {
+        "name": "Vinbaren",
+        "id": 5,
+        "desc": "Vinbaren har et stort udvalg af vine fra anerkendte producenter og du kan altid være sikker på, at kvaliteten på vores vine er i højsædet. Vi finder et glas der falder i din smag, og lader dig altid smage på vinen inden du vælger. Og der er nok at vælge imellem. Vi tilbyder mere end 50 forskellige vine og bobler på glas. Hvis ét glas bare ikke er nok, har du selvfølgelig også mulighed for at købe hele flasken. Vi tilbyder også et bredt udvalg af drinks og cocktails - i ALLE størrelser - og har flere udsøgte kvalitets gins.",
+        "nationality": "Flere lande",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/ASFlogoer_Vin.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/vinbar.jpg"},
+    {
+        "name": "Kaffebaren",
+        "id": 6,
+        "desc": "Latte, håndbryg, americano – Kaffebaren har det hele – og lidt til. Udover awesome friskbrygget kaffe fra CleverCoffee bydes der på hjemmelavet sødt, som passer perfekt til kaffen.",
+        "nationality": "Dansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/ASFlogoer_Kaffe_1__1.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/kaffe_thump_1_1.jpg"},
+    {
+        "name": "Bánh Mì Bandits",
+         "id": 7,
+         "desc": "Bánh Mì Bandits er awesome freestyle streetfood Vietnamese-style! Drengene fra Bánh Mì Bandits´ fokus er på de charmerende, simple, friske og rene smage fra Vietnam – samlet i en sprød bánh mì sandwich eller i deres awesome salater!",
+         "nationality": "Vietnamisisk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/BanhMI_logo.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Thumpnail.jpg"},
+    {
+        "name": "Popsicle",
+        "id": 8,
+        "desc": "Popsicle laver fabelagtige hjemmelavede is på pind. De bliver lavet efter egne opskrifter på den lille fabrik bag butikken. Sortimentet ændrer sig efter sæson- og humør - der er altid minimum 15 forskellige iskolde lækkerier i montren. Kig forbi Popsicle ved indgangen og vælg din favorit i butikken.",
+        "nationality": "Dansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Pink_logo.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/popsicle_2_1.jpg"
+    },
+    {
+        "name": "Mormors Køkken",
+        "id": 9,
+        "desc": "Traditionel god dansk mad – klassikerne præcis som din mormor lavede dem!​",
+        "nationality": "Dansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Logo_2.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Thumpnail_2.jpg"
+    },
+    {
+        "name": "We Melt",
+        "id": 10,
+        "desc": "Næsten som en toast – bare meget bedre! WEMELT laver sandwiches med ost – lækker blød varm smeltet ost – og friskt surdejsbrød - dertil lægges fyld efter eget valg, så får du den perfekte amerikanske CheeseMelt.",
+        "nationality": "Amerikansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/logo_3.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/front_page_1_.jpg"
+    },
+    {
+        "name": "Lima Empanadas",
+        "id": 11,
+        "desc": "Varme, sprøde & bløde - med dit yndlingsfyld! Lima Empanadas har et bredt varieret udvalg af de lækreste hjemmelavede empanadas og skønne spicy dips.",
+        "nationality": "Spansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Lima_empanadas-logo-RGB_1.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Skinke_ost_.jpg"
+    },
+    {
+        "name": "Za'atar",
+        "id": 12,
+        "desc": "Farverige markeder, duftende hummus og sirupdryppende kager - Og en pige midt i Jerusalems ældgamle myldrende kerne. Det er fem år siden Corina første gang besøgte byen, hvor hun fandt sit kulinariske hjemsted. Snart blev de mange smage og dufte en del af hendes væsen, og i dag videregiver hun den oplevelse og rigdom af sanseindtryk til sine mange sultne gæster. Den uimodståelige malawach, hvor opskrifterne bunder i gammel tradition, er omdrejningspunktet i Za´atar med sine præferencer for autentisk, velsmagende og sund mad.",
+        "nationality": "Israelsk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Logo_4.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Thumpnail_4.jpg"
+    },
+    {
+        "name": "Bap",
+        "id": 13,
+        "desc": "Bibimbap, Kimbap, Ssambap eller Bapsang – kært barn har mange navne! Disse er navnene på nogle af BAPs fabelagtige koreanske retter – der er smæk på smagen som er intet mindre end fabelagtig! 100 % hjemmelavet med kærlighed.",
+        "nationality": "Koreansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/logo_2.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Thumpail.jpg"
+    },
+    {
+        "name": "La Rossa",
+        "id": 14,
+        "desc": "La Rossa tilbyder skønne italienske pizzaer med alverdens nytænkende spændende fyld – og selvfølgelig også de helt traditionelle pizzaer. De er brandsvarme, sprøde, gyldne og helt fantastiske!",
+        "nationality": "Italiensk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Logo_1.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Thumpnail_1.jpg"
+    },
+    {
+        "name": "Mad Mex",
+        "id": 15,
+        "desc": "Mad Mex serverer hjemmelavede tacos og bløde tortillas rullet med alverdens spicy lækkerier til byens absolut bedste burritos. Alt er hjemmelavet og deres hjemmelavede sprøde nachos er en fabelagtigt og meget autentisk snack – helt perfekt med guacamole, salsa og en iskold øl.",
+        "nationality": "Mexicansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/logo_4.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Cover_madmex.png"
+    },
+    {
+        "name": "Turkish Grillhouse",
+        "id": 16,
+        "desc": "Turkish Grill House laver Adana så englene synger og en shawarma som får glædestårerne frem – fløjlsblødt kød, hjemmelavet dyppelse og friske grøntsager i den skønneste forening! Vi kan slet ikke få nok!! Det er 100% hjemmelavet – med kærlighed",
+        "nationality": "Tyrkisk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/TurkishGrill_logo.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/thumnpnaiul_3_1.jpg"
+    },
+    {
+        "name": "Super Bao",
+        "id": 17,
+        "desc": "En bao er en dampet blød bolle, som fyldes med en masse lækkerier som marineret kød og sprødt grønt - top det hele med specialiteten kimchi eller syltet grønt - så har du en ret, der aldrig skuffer",
+        "nationality": "Kinesisk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Logo_5.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/thumpnail_4.jpg"
+    },
+    {
+        "name": "Acquolina",
+        "id": 18,
+        "desc": "Skønne klassiske italienske livretter - bløde risottos og friskbagte piadinas fyldt med alverdens lækkerier tilberedt med stor kærlighed af Stefano.",
+        "nationality": "Italiensk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Logoacquolina.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Risotto_Saffron_with_saffron_taleggio_cheese_cream_and_salsiccia_75_Kr_1_1_.jpg"
+    },
+    {
+        "name": "Fry'It",
+        "id": 19,
+        "desc": "Hjemmelavede loaded fries to die for! Hos Jake og Kim får du de bedste, sprødeste og lækreste loadede fritter - med præcis den \"topping\" du foretrækker. De er fabelagtige - og absolut vanedannede!",
+        "nationality": "Dansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Sk_rmbillede_2021-12-03_kl._10.09.21.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Sk_rmbillede_2022-01-03_kl._14.16.10.jpg"
+    },
+    {
+        "name": "Juicen",
+        "id": 20,
+        "desc": "I JUICEN finder du alverdens lækre læskende forfriskninger! Hjemmelavede og friskpressede juice og smoothies i sæson - samt lækre milkshakes lavet på flødeis, chokolade & frugt.",
+        "nationality": "Dansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Logo_JUICEN_1.2_TegnebrA_t_1.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/C321A0DA-62F7-4F64-85C9-E1035EF65F8D.jpg"
+    },
+    {
+        "name": "Kagen",
+        "id": 21,
+        "desc": "Syndige cheesecakes, varme sprøde belgiske vafler med is & sauce, chokolade mættede brownies, trøfler og alt muligt andet lækkert fås i KAGEN (Popsicle) ved indgangen. Alle fristelserne er hjemmelavede - og der er ofte en ekstra lækker friskbagt Ugens Kage.",
+        "nationality": "Dansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Logo_Kagen_1.2_TegnebrA_t_1.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/IMG_1859.jpeg"
+    },
+    {
+        "name": "Tatashe",
+        "id": 22,
+        "desc": "Tatashe serverer afrikansk og caribisk inspirerede grillretter som smagfuld og saftig kulgrillet jerk pork, og spicy ribs samt traditionelle gryderetter med okse- eller ged. Det er autentisk & hjemmelavet – og 100 % lækkert!",
+        "nationality": "Caribisk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Tatashe_logo_2.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Thumpnail_5.jpg"
+    },
+    {
+        "name": "The Everest Kitchen",
+        "id": 23,
+        "desc": "Hos Everest Kitchen får du uimodståelige nepalesiske retter som hjemmelavet naanbrød, smagfulde supper og ikke mindst bestselleren “Biryani” med enten kylling eller lam. Alt er selvfølgelig 100% hjemmelavet på ægte nepalesisk manér – med kærlighed!",
+        "nationality": "Nepalesisk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/EverestKitchenLogo.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Thumpnail_8.jpg"
+    },
+    {
+        "name": "Danyar Fish & Chips",
+        "id": 24,
+        "desc": "Danyar Fish & Chips – The English way! Vi serverer et friskt stykke linefanget færøske kuller med rigtig batter – sprødt og lækkert – fisken serveres som en selvfølge med fritter, Sarson´s malt eddike, mushy peas & hjemmelavet tatarsauce.",
+        "nationality": "Engelsk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Danyar.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Uni_fish_thumpnail.jpg"
+    },
+    {
+        "name": "Delicatezze Pasta Fresca",
+        "id": 25,
+        "desc": "Den bedste hjemmelavede pasta, lasagna og cannelloni nord for Italien fåes hos Delicatezze Pasta Fresca. Menuen skifter med årstid og kokkens italienske humør – men de sikre vindere, som bolognese og carbonara – samt byens lækreste tiramisu er altid at finde i den fine grå container.",
+        "nationality": "Italiensk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Pasta_logo.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/fettuccine_tr_ffel_70-_2__1.jpg"
+    },
+    {
+        "name": "Green Neighbour",
+        "id": 26,
+        "desc": "Vi laver store smagsoplevelser, med fokus på et gastronomisk velkomponeret måltid. Vi er ikke som andre “salat-barer”, hvis fokus ofte kun er på grøntsager, og ikke på smag og sammensætning. Nej, vi giver dig gerne ekstra dressing i salaten, så den bliver lækker at spise, og på den måde gør det sunde måltid til en spændende oplevelse. 60-90% ØKOLOGISK",
+        "nationality": "Dansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/GN_Logo.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/caesar.jpeg"
+    },
+    {
+        "name": "Duck It",
+        "id": 27,
+        "desc": "Med hjælp af den bedste kvalitet af Confit De Canard sørger Duck It for at du får den ultimative oplevelse af hvordan en andeburger med attitude kan smage. Burgerne serveres i flere varianter med frisk salat, hjemmesyltet rødløg og en hjemmelavet signaturdressing.",
+        "nationality": "Dansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Billede_28.04.2021_kl._16.07.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/duckit.jpg"
+    },
+    {
+        "name": "The French Corner",
+        "id": 28,
+        "desc": "Franske galettes og crêpes lavet af en rigtig franskmand fra Bretagne – så bliver det da ikke bedre! Marion har sat sin franske food truck i gear, og fyldt den med fransk stemning – Med sig bringer hun en helt særlig og lokal opskrift på boghvede galettes fra sin hjemstavn Bretagne - og en bred vifte af søde crépes.",
+        "nationality": "Fransk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/FrenchCorner_logo.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Cre_pe_sugar_thumpnail.jpg"
+    },
+    {
+        "name": "Tza Tzi Ki",
+        "id": 29,
+        "desc": "Ioannis laver god solid hjemmelavet græsk mad hos TzaTziKi. De grillede souvlaki, moussakaen og den krydrede bøf bifteki er intet mindre end fabelagtig – alt er selvfølgelig serveret med, nok Danmarks bedste, tzatziki! Kig forbi og nyd en lille bid af det autentiske Grækenland midt i Aarhus.",
+        "nationality": "Græsk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/TZATZIKI.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Pork_Skewers_thumpnail.jpg"
+    },
+    {
+        "name": "Burgeren",
+        "id": 30,
+        "desc": "Burgeren – Aarhus Street Food laver byens absolutte bedste håndholdte cheeseburger! Den er lige tilpas greasy og snasket – 100% vanedannende og hjemmelavet med ❤️",
+        "nationality": "Amerikiansk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Logo_3.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Thumpnail_3.jpg"
+    },
+    {
+        "name": "Pita Pita",
+        "id": 31,
+        "desc": "PitaPita – 100% hjemmelavet med kærlighed Vælg dit friskbagte brød, grillet kød eller sprøde falafler – Pitaen fyldes med friske, syltede, stegte og sprøde grøntsager toppet med lækre hjemmelavede dressinger Det er byens bedste pita!",
+        "nationality": "",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Logo.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/PitaKylling_thumpnail.jpg"
+    },
+    {
+        "name": "Indisk",
+        "id": 32,
+        "desc": "Velduftende og aromatisk – autentisk indisk mad Smørblød butter Chicken, krydret beef curry eller vegansk rajma – Indisk serverer de skønneste indiske klassikere!",
+        "nationality": "Indisk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Indisk_1.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/indisk_thumpnail.jpg"
+    },
+    {
+        "name": "Tuk Tuk",
+        "id": 33,
+        "desc": "Tuk Tuk Thai Mad laver autentiske thailandske retter - krydrede og fulde af eksotiske smagsoplevelser.",
+        "nationality": "Thailandsk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/TukTuk_1.webp",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/thumpnail.jpg"
+    } 
+]
