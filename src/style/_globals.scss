@@ -2,7 +2,14 @@
    --background: #ebdedb;
    --stripes: #3b52c1;
    --button: #9e34e0;
-   --burger: #e0a453;
+   --burger: #f4a64a;
 }
 
+a {
+   text-decoration: none;
+   color: inherit;
+}
 
+html {
+   margin: 0;
+}
