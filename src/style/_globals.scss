@@ -5,6 +5,10 @@
    --burger: #f4a64a;
 }
 
+h1{
+   margin: 0;
+   padding: 2% 0 2% 0;
+}
 a {
    text-decoration: none;
    color: inherit;
@@ -12,4 +16,9 @@ a {
 
 html {
    margin: 0;
+   height: 100%;
+}
+body{
+   margin: 0;
+   height: 100%;
 }
