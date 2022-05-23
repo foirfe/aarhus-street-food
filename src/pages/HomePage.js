@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import RestaurantCard from "../components/RestaurantCard";
 
 export default function HomePage() {
    const navigate = useNavigate();
@@ -19,10 +20,7 @@ export default function HomePage() {
       navigate("/udforsk")
    }
    
-   function handleRestaurantClick()
-   {
-     navigate(`/restaurant/${this.slug}`)
-      }
+      
  
 
 
@@ -39,14 +37,12 @@ export default function HomePage() {
          <div>
             <h2>Ugens udvalgte boder</h2>
          </div>
-         <div>
+         
             {places.map(place => (
-               <div key={place.id} onClick={handleRestaurantClick}>
-                  <h3>{place.name}</h3>
-                  <img src={place.image_url} alt={place.name} />
-               </div>
+              <RestaurantCard key={place.id} place={place}/>
+              
             ))}
          </div>
-      </div>
+    
    );
 }
