@@ -2,6 +2,11 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import IconParkOutlineChili from "../CookingIcons/IconParkOutlineChili";
 import PhCookingPotBold from "../CookingIcons/PhCookingPotBold";
+import MdiChiliOffOutline from "../CookingIcons/MdiChiliOffOutline";
+import IconParkOutlineFrenchFries from "../CookingIcons/IconParkOutlineFrenchFries";
+import IconParkOutlineCakeFive from "../CookingIcons/IconParkOutlineCakeFive";
+import MdiFruitGrapesOutline from "../CookingIcons/MdiFruitGrapesOutline";
+import IconParkOutlineCarrot from "../CookingIcons/IconParkOutlineCarrot";
 
 export default function DiscoverCheckbox() {
    const [errormessage, setErrorMessage] = useState("");
@@ -42,6 +47,7 @@ export default function DiscoverCheckbox() {
                </label>
                <label>
                   <input type="checkbox" value="mildt" onChange={e => setMildt(e.target.checked)} checked={mildt} />
+                  <MdiChiliOffOutline />
                </label>
                <label>
                   <input type="checkbox" value="krydret" onChange={e => setKrydret(e.target.checked)} checked={krydret} />
@@ -49,15 +55,19 @@ export default function DiscoverCheckbox() {
                </label>
                <label>
                   <input type="checkbox" value="friture" onChange={e => setFriture(e.target.checked)} checked={friture} />
+                  <IconParkOutlineFrenchFries />
                </label>
                <label>
                   <input type="checkbox" value="sodt" onChange={e => setSodt(e.target.checked)} checked={sodt} />
+                  <IconParkOutlineCakeFive />
                </label>
                <label>
                   <input type="checkbox" value="smasulten" onChange={e => setSmasulten(e.target.checked)} checked={smasulten} />
+                  <MdiFruitGrapesOutline />
                </label>
                <label>
                   <input type="checkbox" value="plantebaseret" onChange={e => setPlantebaseret(e.target.checked)} checked={plantebaseret} />
+                  <IconParkOutlineCarrot />
                </label>
                <button>Udforsk</button>
                <p>{errormessage}</p>
