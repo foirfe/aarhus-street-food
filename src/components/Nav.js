@@ -80,7 +80,7 @@ export default function Nav() {
             Events
          <div className="arrow">&#10148;</div>
          </a>      
-         <a id="joinus" className="menu-item" href="/joinus">
+         <a id="joinus" className="menu-item" href="/join-us">
             Join us
          <div className="arrow">&#10148;</div>
          </a>
