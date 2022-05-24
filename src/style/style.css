@@ -18,6 +18,7 @@ a {
 html {
   margin: 0;
   height: 100%;
+  background: var(--background);
 }
 
 body {
@@ -30,8 +31,8 @@ body {
   border-color: #3a50bd !important;
 }
 
-.homepage {
-  background: var(--background);
+.footer {
+  background: rgba(224, 163, 83, 0.899);
 }
 
 .homepage button {
@@ -43,9 +44,193 @@ body {
 }
 
 .discoverpage {
-  background: var(--background);
   background-size: cover;
   min-height: 100vh;
   height: auto !important;
+  /* svg manipulation */
+  /* ------------------------ */
+  /* checkbox icon og text flexing */
+  /* text manipulation */
+  /* img manipulation */
 }
+
+.discoverpage svg path {
+  color: #fff;
+}
+
+.discoverpage svg {
+  width: 3em;
+  height: 3em;
+}
+
+.discoverpage .span-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 6%;
+}
+
+.discoverpage .span-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  margin: 1%;
+  padding-bottom: 6%;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.discoverpage .span-icon-box {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2em 0em 2em 0em;
+  text-align: center;
+}
+
+.discoverpage .checkboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.discoverpage .label-box {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  background-color: #9b33dc;
+  border-radius: 10px;
+}
+
+.discoverpage .row1,
+.discoverpage .row2 {
+  width: 40%;
+}
+
+.discoverpage form input[type="checkbox"] {
+  display: none;
+}
+
+.discoverpage form input:checked + div {
+  border-radius: 10px;
+  background-color: #cb33dc;
+}
+
+.discoverpage form button {
+  color: #fff;
+  background-color: #ffcc00;
+  border: #ffcc00;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  padding: 1%;
+  width: 13%;
+  height: auto;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.discoverpage h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.discoverpage h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.discoverpage p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.discoverpage img {
+  width: 40%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .discoverpage .checkboxes {
+    width: 45%;
+  }
+  .discoverpage form button {
+    width: 25%;
+  }
+  .discoverpage .row1, .discoverpage .row2 {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .discoverpage .checkboxes {
+    width: 75%;
+  }
+  .discoverpage form button {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .discoverpage .checkboxes {
+    width: 100%;
+  }
+  .discoverpage form button {
+    width: 50%;
+  }
+}
+
+/* .resultpage{
+
+} */
+/* .restaurantpage{
+
+} */
+/* .eventspage{
+
+} */
+/* .joinuspage{
+
+} */
+/* .infopage{
+
+} */
+/* .contactpage{
+
+} */
 /*# sourceMappingURL=style.css.map */

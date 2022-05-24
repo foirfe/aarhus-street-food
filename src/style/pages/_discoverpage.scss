@@ -1,5 +1,164 @@
-.discoverpage{
+.discoverpage {
    background-size: cover;
    min-height: 100vh;
    height: auto !important;
+
+   /* svg manipulation */
+
+   svg path {
+      color: #fff;
+   }
+
+   svg {
+      width: 3em;
+      height: 3em;
+   }
+   /* ------------------------ */
+
+   /* checkbox icon og text flexing */
+
+   .span-icon {
+      display: flex;
+      padding-top: 6%;
+   }
+
+   .span-text {
+      display: flex;
+      color: #fff;
+      margin: 1%;
+      padding-bottom: 6%;
+      align-self: center;
+   }
+
+   .span-icon-box {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin: 2em 0em 2em 0em;
+      text-align: center;
+   }
+
+   .checkboxes {
+      display: flex;
+      width: 30%;
+      margin: auto;
+      justify-content: center;
+      flex-direction: row;
+   }
+   .label-box {
+      width: 70%;
+      height: auto;
+      margin: auto;
+      background-color: #9b33dc;
+      border-radius: 10px;
+   }
+
+   .row1,
+   .row2 {
+      width: 40%;
+   }
+
+   form {
+      input[type="checkbox"] {
+         display: none;
+      }
+
+      input:checked + div {
+         border-radius: 10px;
+         background-color: #cb33dc;
+      }
+
+      button {
+         color: #fff;
+         background-color: #ffcc00;
+         border: #ffcc00;
+         border-radius: 10px;
+         display: flex;
+         justify-content: center;
+         margin: auto;
+         padding: 1%;
+         width: 13%;
+         height: auto;
+         font-size: 1em;
+         font-weight: bold;
+      }
+   }
+
+   /* text manipulation */
+
+   h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 2em;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+   }
+
+   h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      width: 60%;
+      margin: auto;
+   }
+
+   p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1em;
+      font-weight: 700;
+      text-align: center;
+   }
+
+   /* img manipulation */
+
+   img {
+      width: 40%;
+      align-self: center;
+      margin: auto;
+   }
 }
+
+@media only screen and (max-width: 1024px) {
+   .discoverpage {
+      .checkboxes {
+         width: 45%;
+      }
+
+      form button {
+         width: 25%;
+      }
+
+      .row1, .row2 {
+         width: 40%;
+      }
+   }
+   
+}
+
+@media only screen and (max-width: 768px) {
+
+   .discoverpage {
+      .checkboxes {
+         width: 75%;
+      }
+
+      form button {
+         width: 40%
+      }
+   }
+   
+}
+
+@media only screen and (max-width: 500px) {
+   .discoverpage {
+      .checkboxes {
+         width: 100%;
+      }
+      form button {
+         width: 50%;
+      }
+   }
+}
+
