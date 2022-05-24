@@ -688,6 +688,125 @@
         "safetytags": "gluten",
         "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/s/o/souvlaki_bifteki.webp",
         "id": 71
+    },
+    {
+        "name": "Cheese Burgeren",
+        "price": 60,
+        "restaurant": "Burgeren",
+        "desc": "150 g bøf, cheddar, salat, tomat, rå og syltede løg, syltet agurk, ketchup & burgerdressing i blød Brioche bolle",
+        "tags": "mildt",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img_6423.webp",
+        "id": 72
+    },
+    {
+        "name": "Chili Cheese",
+        "price": 30,
+        "restaurant": "Burgeren",
+        "desc": "5 stk. sprøde chili cheese",
+        "tags": "spicy",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img_6503.webp",
+        "id": 73
+    },
+    {
+        "name": "Kyllinge Burgeren",
+        "price": 60,
+        "restaurant": "Burgeren",
+        "desc": "150 g. friteret sprød kyllingefilet, cheddar, salat, tomat, syltet løg, salsa & burgerdressing i blød brioche bolle.",
+        "tags": "mildt",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/i/m/img_6391.webp",
+        "id": 74
+    },
+    {
+        "name": "Pita - Kylling",
+        "price": 70,
+        "restaurant": "Pita Pita",
+        "desc": "Pita - grillet kyllingefilet, babymix salat, tomat, agurk, feta, peberfrugt, syltede rødløg, coleslaw & gulerødder - samt tzatziki & og toppet med urtedressing.",
+        "tags": "mildt",
+        "safetytags": "gluten",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/p/i/pitakylling.webp",
+        "id": 75
+    },
+    {
+        "name": "Pita - Grillet Oksesteak",
+        "price": 70,
+        "restaurant": "Pita Pita",
+        "desc": "Pita - grillet oksesteak, babymix salat, tomat, agurk, peberfrugt, rå løg, syltede rødløg, feta & kålmix - samt tzatziki & og toppet med urtedressing",
+        "tags": "mildt",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/p/i/pitakylling.webp",
+        "id": 76
+    },
+    {
+        "name": "Salat Bowl - Falafel",
+        "price": 70,
+        "restaurant": "Pita Pita",
+        "desc": "Salatbowl - falafel, babymix salat, tomat, agurk, gulerod, syltede rødløg, saltede pickles, rå løg og råsyltet rødkål - toppet med haydari & urtedressing.",
+        "tags": "mildt",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/b/9/b970f0cd-2195-4bf0-ac70-751e5556bac5_1_.webp",
+        "id": 77
+    },
+    {
+        "name": "Spicy Spinach Chicken",
+        "price": 60,
+        "restaurant": "Indisk",
+        "desc": "Kyllingebryst med kartofler, majs i en spinat flødesovs med kanel, hvidløg og garam masala - serveres med ris",
+        "tags": "spicy",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/5/_/5_spicyspinach.webp",
+        "id": 78
+    },
+    {
+        "name": "Chicken Tikka Masala",
+        "price": 65,
+        "restaurant": "Indisk",
+        "desc": "Marineret kylling m. friske, sprøde grøntsager i en cremet spicy sauce.",
+        "tags": "krydret spicy",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/3/_/3_chickentikkamasala.webp",
+        "id": 79
+    },
+    {
+        "name": "Madras Beef Curry",
+        "price": 60,
+        "restaurant": "Indisk",
+        "desc": "Spicy/karry oksekød m kokosmælk, krydderier fra Madras, løg, tomater, ingefær og hvidløg - serveres med ris.",
+        "tags": "krydret spicy",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/2/_/2_madrasbeefcurry.webp",
+        "id": 80
+    },
+    {
+        "name": "Stor Rød Karry M. Oksekød",
+        "price": 85,
+        "restaurant": "Tuk Tuk",
+        "desc": "Let krydret karry med oksekød, kokosmælk, bambusskud, peberfrugt, ærter og sød basilikum.",
+        "tags": "krydret",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/r/_/r_d_karry_oksek_d.webp",
+        "id": 81
+    },
+    {
+        "name": "Vegansk Spicy Karry",
+        "price": 65,
+        "restaurant": "Tuk Tuk",
+        "desc": "Stærk karry med rød chili, kokosmælk, bambusskud, peberfrugt, ærter, sød basiikum og tofu - serveres med jasminris",
+        "tags": "spicy plantebaseret",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/1/0/10_-_vegansk_spicy_karry.webp",
+        "id": 82
+    },
+    {
+        "name": "Pad Kee Mau (Drunken Noodles)",
+        "price": 55,
+        "restaurant": "Tuk Tuk",
+        "desc": "Traditional thai nudelret med kylling, bambus, gulerødder, løg, basilikum og chili.",
+        "tags": "krydret",
+        "safetytags": "",
+        "image_url": "https://aarhusstreetfood.com/media/catalog/product/cache/914e3eb980cc85032ca3d5942338388b/0/4/04_-_pad_kee_mau.webp",
+        "id": 83
     }
-
 ]

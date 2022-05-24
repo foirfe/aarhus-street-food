@@ -1,4 +1,76 @@
-//Fjern kommentaren og style ind i den her
-/* .restaurantpage{
-
-} */
+.restaurantpage{
+    .restaurantheader{
+        position: relative;
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        color: #E68938;
+        font-size: 3em;
+        font-weight: 800;
+        position: absolute;
+        bottom: 2%;
+        left: 2%;
+    }
+    img{
+        width: 100%;
+        border-radius: 2px 2px 2px 4px;
+    }
+}
+    .moreinfo{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 5% auto;
+        border-radius: 8px;
+        background: #bea8a2;
+        color: white;
+        p{
+            margin-left: 2%;
+            margin-right: 2%;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 1.25em;
+        }
+        .nationality{
+            display: flex;
+            align-items: center;
+            img{
+                height: 25px;
+                margin: 0 2% 0 2%;
+            }
+            p{
+                font-weight: bold;
+                
+                text-transform: uppercase;
+            }
+        }
+    }
+    //Menu
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .menucard{
+            width: 40%;
+            position: relative;
+            h3{
+                margin-top: 1%;
+                width: 100%;
+                position: absolute;
+                color: white;
+                font-size: 2em;
+                word-wrap: break-word;
+            }
+            p{
+                color: white;
+                font-family: 'Josefin Sans', sans-serif;
+                position: absolute;
+                bottom: 0;
+                right: 3%;
+                font-weight: 800;
+            }
+            img{
+                width: 100%;
+            height: 20vh;}
+        }
+    }
+} 
