@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../img/Logo.png"
 import RestaurantCard from "../components/RestaurantCard";
+import CuratedRestaurants from "../components/CuratedRestaurants";
 
 export default function HomePage() {
    const navigate = useNavigate();
@@ -39,6 +40,7 @@ export default function HomePage() {
          </div>
          <div>
             <h2>Ugens udvalgte boder</h2>
+            <CuratedRestaurants/>
          </div>
          <div className="filters">
          <p>Filtre</p>

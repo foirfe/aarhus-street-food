@@ -42,7 +42,13 @@ margin-bottom: 2%;
          left: 2%;
       }
    }
-
+.curatedplace{
+   text-align: center;
+   img{
+      width: 50%;
+      margin: 0 auto;
+   }
+}
  
    .filters{
       display: flex;
@@ -76,7 +82,7 @@ margin-bottom: 2%;
       }
       @media only screen and (min-width: 1024px) {
          height: 50vh;
-         width: 10%;
+         width: 15%;
          margin: 2% 2%;
          h3{
             writing-mode: vertical-rl;
