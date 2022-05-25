@@ -8,6 +8,15 @@
 h1 {
   margin: 0;
   padding: 2% 0 2% 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 a {
@@ -32,15 +41,149 @@ body {
 }
 
 .footer {
-  background: rgba(224, 163, 83, 0.899);
+  background: #C2ACA6;
 }
 
-.homepage button {
-  background: var(--button);
+.homepage .homepagebanner {
+  background: url(../img/HomePageBanner.png);
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.homepage img {
-  width: 50%;
+.homepage .homepagebanner p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25em;
+  margin: 0 auto;
+  width: 90%;
+  text-transform: uppercase;
+}
+
+.homepage .homepagebanner h1 {
+  text-align: center;
+  padding: 20% 0 10% 0;
+  margin: 0 auto;
+  font-size: 3em;
+  width: 75%;
+  color: white;
+}
+
+.homepage .homepagebanner img {
+  margin-bottom: 2%;
+}
+
+.homepage .homepagebanner button {
+  background: #D79F55;
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  border-style: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  padding: 2%;
+  margin-bottom: 5%;
+  margin-right: auto;
+  margin-left: 5%;
+  bottom: 10%;
+  left: 2%;
+}
+
+.homepage .filters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.homepage .filters p {
+  text-transform: uppercase;
+  margin-right: 2%;
+}
+
+.homepage .restaurantcard {
+  width: 90%;
+  margin: 10% auto;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.homepage .restaurantcard:hover {
+  cursor: pointer;
+}
+
+.homepage .restaurantcard img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.homepage .restaurantcard h3 {
+  text-transform: uppercase;
+  position: absolute;
+  color: white;
+  margin: 2% 0 2% 2%;
+  font-size: 2em;
+}
+
+@media only screen and (min-width: 1024px) {
+  .homepage .restaurantcard {
+    height: 50vh;
+    width: 10%;
+    margin: 2% 2%;
+  }
+  .homepage .restaurantcard h3 {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: inherit;
+    margin: 2% 2% 0 0;
+    position: inherit;
+    color: black;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .homepage .homepagebanner {
+    background: url(../img/HomePageBannerDesktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .homepage .homepagebanner h1 {
+    padding: 5% 0 2.5% 0;
+  }
+  .homepage .homepagebanner p {
+    width: inherit;
+    margin-right: auto;
+    margin-left: 5%;
+    display: inline;
+    background: rgba(0, 0, 0, 0.315);
+  }
+  .homepage .homepagebanner button {
+    padding: 1%;
+  }
+  .homepage .desktopflex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .discoverpage {
@@ -218,9 +361,106 @@ body {
 /* .resultpage{
 
 } */
-/* .restaurantpage{
+.restaurantpage .restaurantheader {
+  position: relative;
+}
 
-} */
+.restaurantpage .restaurantheader h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #E68938;
+  font-size: 3em;
+  font-weight: 800;
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+}
+
+.restaurantpage .restaurantheader img {
+  width: 100%;
+  border-radius: 2px 2px 2px 4px;
+}
+
+.restaurantpage .moreinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  margin: 5% auto;
+  border-radius: 8px;
+  background: #bea8a2;
+  color: white;
+}
+
+.restaurantpage .moreinfo p {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.25em;
+}
+
+.restaurantpage .moreinfo .nationality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.restaurantpage .moreinfo .nationality img {
+  height: 25px;
+  margin: 0 2% 0 2%;
+}
+
+.restaurantpage .moreinfo .nationality p {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.restaurantpage .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.restaurantpage .menu .menucard {
+  width: 40%;
+  position: relative;
+}
+
+.restaurantpage .menu .menucard h3 {
+  margin-top: 1%;
+  width: 100%;
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  word-wrap: break-word;
+}
+
+.restaurantpage .menu .menucard p {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  bottom: 0;
+  right: 3%;
+  font-weight: 800;
+}
+
+.restaurantpage .menu .menucard img {
+  width: 100%;
+  height: 20vh;
+}
+
 /* .eventspage{
 
 } */
