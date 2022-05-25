@@ -29,19 +29,25 @@ export default function RestaurantPage() {
    <div className="restaurantpage">
 {place.map(selectedplace =>(
    <div key={selectedplace.id}>
+      <div className="restaurantheader">
       <h1>{selectedplace.name}</h1>
       <img src={selectedplace.image_url} alt={selectedplace.name}/>
+      </div>
       <div className="moreinfo">
+         <div className="nationality">
          <CircleFlag countryCode={selectedplace.countrycode}/>
       <p>{selectedplace.nationality}</p>
+      </div>
       <p>{selectedplace.desc}</p>
       </div>
    </div>
 ))}
-
-{menu.map(menuItem =>(
+   <p>Sorter efter</p>
+<div className="menu">
+{menu.map(menuItem =>(  
    <MenuCard key={menuItem.id} menuItem={menuItem}/>
 ))}
+</div>
    </div>
 )
 }

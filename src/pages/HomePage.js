@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Logo from "../img/Logo.png"
 import RestaurantCard from "../components/RestaurantCard";
 
 export default function HomePage() {
@@ -7,6 +8,7 @@ export default function HomePage() {
    const [places, setPlaces] = useState([]);
 
    useEffect(() => {
+      //Function der fetcher vores json filer og sætter dem op i et array vi så kan mappe
       async function getData() {
          const response = await fetch("./data/da_places.json");
          const data = await response.json();
@@ -16,6 +18,7 @@ export default function HomePage() {
    }, []);
    console.log(places);
 
+   //Function til knappen
    function handleClick(){
       navigate("/udforsk")
    }
@@ -26,9 +29,9 @@ export default function HomePage() {
 
    return (
       <div className="homepage">
+         <div className="homepagebanner">
          <h1>Velkommen til</h1>
-         <img src="" alt="Aarhus Street Food" />
-         <div>
+         <img src={Logo} alt="Aarhus Street Food" />
             <p>
                Lyst til at prøve noget nyt? Prøv vores nye <span onClick={handleClick}>discover</span> funktion og find din nye yndlingsret
             </p>
@@ -37,11 +40,15 @@ export default function HomePage() {
          <div>
             <h2>Ugens udvalgte boder</h2>
          </div>
-         
+         <div className="filters">
+         <p>Filtre</p>
+         </div>
+         <div className="desktopflex">
             {places.map(place => (
               <RestaurantCard key={place.id} place={place}/>
               
             ))}
+            </div>
          </div>
     
    );
