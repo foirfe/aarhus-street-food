@@ -1,8 +1,14 @@
+
+import Logo from "../img/Logo.png";
+
+
 export default function ContactPage() {
   return (
     <div className="contactpage">
       <div className="contactpage-s1-header">
-        <h1>Kontakt</h1>
+        <h1>KONTAKT</h1>
+        <img src={Logo} alt="Aarhus Street Food" />
+
       </div>
 
       <div className="contactpage-s2-box">

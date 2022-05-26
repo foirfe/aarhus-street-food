@@ -1,5 +1,4 @@
-
-//array med objekter - ligger i en seperat fil, for at koden er bedre struktureret og nemmere at forstå. 
+//array med objekter - ligger i en seperat fil, for at koden er bedre struktureret og nemmere at forstå.
 
 export const Data = [
   {
@@ -15,7 +14,7 @@ export const Data = [
   {
     question: "STREET CREDIT & GAVEKORT",
     answer:
-      "Street Credits er Aarhus Street Foods egen møntfod. De er perfekte til et selskab, da de kan købes samlet på en faktura i Den Blå Bar og så deles ud til gæsterne. Street Credits kan benyttes i alle køkkener og barer. Skal du bruge mange, kan de forudbestilles på booking@aarhusstreetfood.com, så sørger hun for at de ligger pakket og klar. Gaevkort kan købes online her",
+      "Street Credits er Aarhus Street Foods egen møntfod. De er perfekte til et selskab, da de kan købes samlet på en faktura i Den Blå Bar og så deles ud til gæsterne. Street Credits kan benyttes i alle køkkener og barer. Skal du bruge mange, kan de forudbestilles på booking@aarhusstreetfood.com, så sørger hun for at de ligger pakket og klar. Gavekort kan købes online her",
   },
   {
     question: "SØDE HUNDE",
@@ -32,14 +31,9 @@ export const Data = [
       "Har du en udstilling til vores lille kaffebars galleri eller en awesome ide til et kreativt add-on til Garagen skal du fluks sende os en mail på kontakt@aarhusstreetfood.com",
   },
   {
-    question: "VORES HISTORIE",
-    answer:
-      "Inspireret af en familietur til Londons Borough Market i 2014 blev Aarhus Street Food grundlagt af Britt Vorre og Thomas Bendtsen i august 2016. De tænkte, at de gode mennesker i Århus ville byde sådan et initiativ velkommen. De havde ret - Aarhus bød Aarhus Street Food langt mere velkommen end nogen kunne forestille sig. Markedet er så velbesøgt, at hver borger i Århus besøger markedet 4,9 gange om året, hvilket svarer til mere end 1,3 millioner spisegæster om året. Det gør Aarhus Street Food til det mest succesrige indendørs madmarked i Danmark.",
-  },
-  {
     question: "VORES VÆRDIER",
     answer:
-      "Vores overordnede vision for Aarhus Street Food, er at skabe, ikke kun et godt madmarked, men et fantastisk madmarked. For at komme i betragtning til en stadeplads i Garagen skal stadelejerene leve op til vores street food kerneværdier. Kvalitet <stroDet er essentielt, at køkkenet bruger friske råvarer og fremstiller maden fra bunden. Vi ser kvalitet som værende hjemmelavet mad, tilberedt på stedet af friske råvarer og uden brug af unødvendig halvfabrikata.Dekoration og Udseende Vi sætter pris på køkkenernes originale udtryk og autentiske design - og at køkkenet giver gæsterne mulighed for at se og lugte maden, der bliver lavet.Prisniveau Alle køkkener skal sælge en eller flere mættende retter til 55 DKK. En sideordre såsom pommes frites eller lignende betragtes ikke som et mættende måltid. Vi forventer en rimelig prissættelse, der afspejler lejers lave omkostninger i Garagen - samt at ASF er et marked, ikke en restaurant.Diversitet Aarhus Street Food er et originalt marked med en bred vifte af kulinariske tilbud - derfor lægges der vægt på køkkenets originalitet, og at nye køkkeners koncepter adskiller sig fra de eksisterendes.",
+      "Vores overordnede vision for Aarhus Street Food, er at skabe, ikke kun et godt madmarked, men et fantastisk madmarked. For at komme i betragtning til en stadeplads i Garagen skal stadelejerene leve op til vores street food kerneværdier. Kvalitet Det er essentielt, at køkkenet bruger friske råvarer og fremstiller maden fra bunden. Vi ser kvalitet som værende hjemmelavet mad, tilberedt på stedet af friske råvarer og uden brug af unødvendig halvfabrikata.Dekoration og Udseende Vi sætter pris på køkkenernes originale udtryk og autentiske design - og at køkkenet giver gæsterne mulighed for at se og lugte maden, der bliver lavet.Prisniveau Alle køkkener skal sælge en eller flere mættende retter til 55 DKK. En sideordre såsom pommes frites eller lignende betragtes ikke som et mættende måltid. Vi forventer en rimelig prissættelse, der afspejler lejers lave omkostninger i Garagen - samt at ASF er et marked, ikke en restaurant.Diversitet Aarhus Street Food er et originalt marked med en bred vifte af kulinariske tilbud - derfor lægges der vægt på køkkenets originalitet, og at nye køkkeners koncepter adskiller sig fra de eksisterendes.",
   },
 ];
 

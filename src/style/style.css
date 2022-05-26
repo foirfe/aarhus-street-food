@@ -467,15 +467,25 @@ body {
 /* .joinuspage{
 
 } */
+.infopage {
+  color: #fff;
+}
+
 .infopage .accordion {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #eeaeca;
-  background: radial-gradient(circle, #eeaeca 0%, #c7e994 100%);
+  border-radius: 10px 10px 10px 10px;
+  border-bottom: 10px;
+  background: #c1aaa4;
   max-width: 600px;
   margin: 2rem auto;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.infopage h3 {
+  padding: 10% 5% 0% 5%;
 }
 
 .infopage .accordion-question {
@@ -490,11 +500,12 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   cursor: pointer;
-  background-color: #21aeca;
+  background-color: #c1aaa4;
+  border-bottom: 1px solid white;
 }
 
 .infopage .accordion-question:hover {
-  background-color: #3ab4cc;
+  background-color: #d0b3aa;
 }
 
 .infopage .accordion-question,
@@ -503,7 +514,10 @@ body {
 }
 
 .infopage .accordion-answer {
-  background-color: #39b9d2;
+  background-color: #d0b3aa;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media screen and (max-width: 700px) {
@@ -515,7 +529,132 @@ body {
   }
 }
 
-/* .contactpage{
+.infopage-s1-header {
+  background: url(../img/InfoOmBanner.png);
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 
-} */
+.infopage-s1-header h1 {
+  text-align: center;
+  padding: 30% 0 0% 0;
+  margin: 0 auto;
+  font-size: 3em;
+  width: 75%;
+  color: white;
+}
+
+.infopage-s1-header img {
+  margin-bottom: 2%;
+}
+
+.infopage-s2 {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px 10px 10px 10px;
+  border-bottom: 10px;
+  background: #c1aaa4;
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: "Josefin Sans", sans-serif;
+  width: 90%;
+}
+
+.infopage-s2 img {
+  margin: 0 auto;
+  width: 100%;
+  height: 36vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.infopage-s2 p {
+  margin: 0 auto;
+  padding: 10% 0% 10% 0%;
+  width: 90%;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+
+.contactpage {
+  color: #fff;
+}
+
+.contactpage-s1-header {
+  background: url(../img/KontaktBanner.png);
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contactpage-s1-header h1 {
+  text-align: center;
+  padding: 30% 0 0% 0;
+  margin: 0 auto;
+  font-size: 3em;
+  width: 75%;
+  color: white;
+}
+
+.contactpage-s1-header img {
+  margin-bottom: 2%;
+}
+
+.contactpage-s2-text {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px 10px 10px 10px;
+  border-bottom: 10px;
+  background: #c1aaa4;
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: "Josefin Sans", sans-serif;
+  width: 90%;
+}
+
+.contactpage-s2-text p {
+  margin: 0 auto;
+  padding: 0% 0% 10% 0%;
+  width: 90%;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+
+.contactpage-s2-text h3 {
+  padding: 10% 5% 0% 5%;
+}
 /*# sourceMappingURL=style.css.map */
