@@ -1,4 +1,46 @@
-//Fjern kommentaren og style ind i den her
-/* .infopage{
+.infopage {
+  .accordion {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(199, 233, 148, 1) 100%
+    );
+    max-width: 600px;
+    margin: 2rem auto;
+  }
 
-} */
+  .accordion-question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #21aeca;
+  }
+
+  .accordion-question:hover {
+    background-color: #3ab4cc;
+  }
+
+  .accordion-question,
+  .accordion-answer {
+    padding: 1rem;
+  }
+
+  .accordion-answer {
+    background-color: #39b9d2;
+  }
+
+  @media screen and (max-width: 700px) {
+    body {
+      font-size: 18px;
+    }
+
+    .accordion {
+      width: 90%;
+    }
+  }
+}

@@ -467,9 +467,54 @@ body {
 /* .joinuspage{
 
 } */
-/* .infopage{
+.infopage .accordion {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #c7e994 100%);
+  max-width: 600px;
+  margin: 2rem auto;
+}
 
-} */
+.infopage .accordion-question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  background-color: #21aeca;
+}
+
+.infopage .accordion-question:hover {
+  background-color: #3ab4cc;
+}
+
+.infopage .accordion-question,
+.infopage .accordion-answer {
+  padding: 1rem;
+}
+
+.infopage .accordion-answer {
+  background-color: #39b9d2;
+}
+
+@media screen and (max-width: 700px) {
+  .infopage body {
+    font-size: 18px;
+  }
+  .infopage .accordion {
+    width: 90%;
+  }
+}
+
 /* .contactpage{
 
 } */
