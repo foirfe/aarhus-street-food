@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { EffectFade } from 'swiper';
+import { useNavigate } from "react-router-dom";
 
 
 export default function CuratedRestaurants()
 {
+  const navigate = useNavigate()
     const [curatedPlaces, setCuratedPlaces] = useState([]);
     useEffect(()=>{
         async function getData(){
@@ -17,20 +18,27 @@ export default function CuratedRestaurants()
         getData();
     },[])
 
+function handleClick(indexNumber){
+  navigate(`/restaurant/${curatedPlaces[indexNumber]?.slug}`)
+}
     return(
         <div>
             
     
         
         <Swiper
-        spaceBetween={50}
-        slidesPerView={1}
+        spaceBetween={0.1}
+        slidesPerView={1.9}
         onSlideChange={() => console.log('slide change')}
+        centeredSlides= {true}
         onSwiper={(swiper) => console.log(swiper)}
-        modules={[EffectFade]} effect="cards"
+        loop={true}
+        slideToClickedSlide={true} 
+        preventClicks={false} 
+        preventClicksPropagation={false}
         >
      
-              <SwiperSlide><div className="curatedplace">
+              <SwiperSlide  ><div  className="curatedplace">
                   <h2>{curatedPlaces[0]?.name}</h2>
                   <img src={curatedPlaces[0]?.image_url} alt={curatedPlaces[0]?.name}/>
                 </div></SwiperSlide>
@@ -55,7 +63,7 @@ export default function CuratedRestaurants()
                 </div></SwiperSlide>
         ...
       </Swiper>
-        
+        <h2>Test</h2>
       </div>
     )
 }

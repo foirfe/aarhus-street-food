@@ -1,7 +1,20 @@
 import DiscoverCheckbox from "../components/DiscoverCheckbox";
+import DiscoverDropDown from "../components/DiscoverDropDown";
 import Logo from "../img/Logo.png";
+import {useEffect} from "react";
 
 export default function DiscoverPage() {
+
+   useEffect(()=>{
+function removeDropdownItems()
+{
+   localStorage.removeItem("laktose");
+   localStorage.removeItem("gluten");
+   localStorage.removeItem("nuts")
+}
+removeDropdownItems();
+   }
+)
    return (
       <div className="discoverpage">
          <div className="discover-banner">
@@ -12,6 +25,7 @@ export default function DiscoverPage() {
          <div className="checkbox">
             <DiscoverCheckbox />  
          </div>
+         <DiscoverDropDown />
       </div>
    );
 }
