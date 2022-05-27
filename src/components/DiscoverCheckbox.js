@@ -122,8 +122,7 @@ export default function DiscoverCheckbox() {
                         </div>
                      </label>
                   </div>
-               </div>{" "}
-               {/* row 2 slut */}
+               </div>{/* row 2 slut */}
             </div>
             <button>SE DINE RETTER</button>
             <p>{errormessage}</p>
