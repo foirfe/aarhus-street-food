@@ -3,7 +3,7 @@ import React from 'react'
 export function MdiChiliOffOutline(props) {
   return (
     <svg id="MDI_fire-off" data-name="MDI / fire-off" xmlns="http://www.w3.org/2000/svg" width="54.21" height="54.21" viewBox="0 0 54.21 54.21">
-    <g id="Boundary" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <g id="Boundary" fill="#fff" stroke="rgba(0,0,0,0)" strokeWidth="1" opacity="0">
       <rect width="54.21" height="54.21" stroke="none"/>
       <rect x="0.5" y="0.5" width="53.21" height="53.21" fill="none"/>
     </g>

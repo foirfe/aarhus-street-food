@@ -3,7 +3,7 @@ import React from 'react'
 export function IconParkOutlineCarrot(props) {
   return (
     <svg id="MDI_carrot" data-name="MDI / carrot" xmlns="http://www.w3.org/2000/svg" width="47.83" height="47.83" viewBox="0 0 47.83 47.83">
-    <g id="Boundary" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <g id="Boundary" fill="#fff" stroke="rgba(0,0,0,0)" strokeWidth="1" opacity="0">
       <rect width="47.83" height="47.83" stroke="none"/>
       <rect x="0.5" y="0.5" width="46.83" height="46.83" fill="none"/>
     </g>
