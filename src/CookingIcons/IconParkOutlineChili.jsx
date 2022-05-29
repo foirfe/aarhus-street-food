@@ -4,7 +4,7 @@ export function IconParkOutlineChili(props) {
    return (
       <svg xmlns="http://www.w3.org/2000/svg" width="54.208" height="54.208" viewBox="0 0 54.208 54.208">
       <g id="MDI_fire" data-name="MDI / fire" opacity="0.931">
-        <g id="Boundary" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+        <g id="Boundary" fill="#fff" stroke="rgba(0,0,0,0)" strokeWidth="1" opacity="0">
           <rect width="54.208" height="54.208" stroke="none"/>
           <rect x="0.5" y="0.5" width="53.208" height="53.208" fill="none"/>
         </g>

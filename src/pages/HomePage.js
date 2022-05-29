@@ -47,7 +47,7 @@ export default function HomePage() {
             </p>
             <button onClick={handleClick}>Prøv den her</button>
          </div>
-         <div>
+         <div className="curated">
             <h2>Ugens udvalgte boder</h2>
             <CuratedRestaurants/>
          </div>

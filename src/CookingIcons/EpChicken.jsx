@@ -4,7 +4,7 @@ export function EpChicken(props) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="43.977" height="43.977" viewBox="0 0 43.977 43.977">
   <g id="MDI_food-drumstick" data-name="MDI / food-drumstick" opacity="0.981">
-    <g id="Boundary" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <g id="Boundary" fill="#fff" stroke="rgba(0,0,0,0)" strokeWidth="1" opacity="0">
       <rect width="43.977" height="43.977" stroke="none"/>
       <rect x="0.5" y="0.5" width="42.977" height="42.977" fill="none"/>
     </g>

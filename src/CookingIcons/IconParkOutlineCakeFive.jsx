@@ -4,7 +4,7 @@ export function IconParkOutlineCakeFive(props) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="43.719" height="43.719" viewBox="0 0 43.719 43.719">
     <g id="MDI_cake-variant" data-name="MDI / cake-variant" opacity="0.949">
-      <g id="Boundary" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <g id="Boundary" fill="#fff" stroke="rgba(0,0,0,0)" strokeWidth="1" opacity="0">
         <rect width="43.719" height="43.719" stroke="none"/>
         <rect x="0.5" y="0.5" width="42.719" height="42.719" fill="none"/>
       </g>
