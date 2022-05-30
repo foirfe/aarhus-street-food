@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Tuk Tuk",
+        "id": 33,
+        "desc": "Tuk Tuk Thai Mad laver autentiske thailandske retter - krydrede og fulde af eksotiske smagsoplevelser.",
+        "nationality": "Thailandsk",
+        "countrycode": "th",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/TukTuk_1.webp",
+        "slug": "tuktuk",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/thumpnail.jpg"
+    },
+    {
+        "name": "Burgeren",
+        "id": 30,
+        "desc": "Burgeren – Aarhus Street Food laver byens absolutte bedste håndholdte cheeseburger! Den er lige tilpas greasy og snasket – 100% vanedannende og hjemmelavet med ❤️",
+        "nationality": "Amerikansk",
+        "countrycode": "us",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Logo_3.webp",
+        "slug": "burgeren",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Thumpnail_3.jpg"
+    },
+    {
+        "name": "The French Corner",
+        "id": 28,
+        "desc": "Franske galettes og crêpes lavet af en rigtig franskmand fra Bretagne – så bliver det da ikke bedre! Marion har sat sin franske food truck i gear, og fyldt den med fransk stemning – Med sig bringer hun en helt særlig og lokal opskrift på boghvede galettes fra sin hjemstavn Bretagne - og en bred vifte af søde crépes.",
+        "nationality": "Fransk",
+        "countrycode": "fr",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/FrenchCorner_logo.webp",
+        "slug": "thefrenchcorner",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Cre_pe_sugar_thumpnail.jpg"
+    },
+    {
+        "name": "Green Neighbour",
+        "id": 26,
+        "desc": "Vi laver store smagsoplevelser, med fokus på et gastronomisk velkomponeret måltid. Vi er ikke som andre “salat-barer”, hvis fokus ofte kun er på grøntsager, og ikke på smag og sammensætning. Nej, vi giver dig gerne ekstra dressing i salaten, så den bliver lækker at spise, og på den måde gør det sunde måltid til en spændende oplevelse. 60-90% ØKOLOGISK",
+        "nationality": "Dansk",
+        "countrycode": "dk",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/GN_Logo.webp",
+        "slug": "greenneighbour",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/caesar.jpeg"
+    },
+    {
+        "name": "Danyar Fish & Chips",
+        "id": 24,
+        "desc": "Danyar Fish & Chips – The English way! Vi serverer et friskt stykke linefanget færøske kuller med rigtig batter – sprødt og lækkert – fisken serveres som en selvfølge med fritter, Sarson´s malt eddike, mushy peas & hjemmelavet tatarsauce.",
+        "nationality": "Engelsk",
+        "countrycode": "gb-eng",
+        "avatar": "https://aarhusstreetfood.com/media/avatar/Danyar.webp",
+        "slug": "danyarfishandchips",
+        "image_url": "https://aarhusstreetfood.com/media/resized/600x600/Uni_fish_thumpnail.jpg"
+    }
+]

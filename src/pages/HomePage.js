@@ -2,21 +2,31 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../img/Logo.png"
 import RestaurantCard from "../components/RestaurantCard";
+import CuratedRestaurants from "../components/CuratedRestaurants";
+import SearchBar from "../components/SearchBar";
 
 export default function HomePage() {
    const navigate = useNavigate();
    const [places, setPlaces] = useState([]);
+   const [searchValue, setSearchValue] = useState("");
+   const [errormessage, setErrorMessage] = useState("");
 
    useEffect(() => {
       //Function der fetcher vores json filer og sætter dem op i et array vi så kan mappe
       async function getData() {
          const response = await fetch("./data/da_places.json");
          const data = await response.json();
-         setPlaces(data);
+         const searchedRestaurants = data.filter(restaurant=> restaurant.nationality.toLowerCase().includes(searchValue) || restaurant.name.toLowerCase().includes(searchValue));
+         setPlaces(searchedRestaurants);
+         if (searchedRestaurants.length === 0){
+            setErrorMessage("Ingen resultater fundet");
+         } else {
+            setErrorMessage("");
+         }
       }
       getData();
-   }, []);
-   console.log(places);
+   }, [searchValue]);
+ 
 
    //Function til knappen
    function handleClick(){
@@ -37,12 +47,13 @@ export default function HomePage() {
             </p>
             <button onClick={handleClick}>Prøv den her</button>
          </div>
-         <div>
+         <div className="curated">
             <h2>Ugens udvalgte boder</h2>
+            <CuratedRestaurants/>
          </div>
-         <div className="filters">
-         <p>Filtre</p>
-         </div>
+            <SearchBar setValue={setSearchValue} />
+      <p className="errormessage">{errormessage}</p>
+         
          <div className="desktopflex">
             {places.map(place => (
               <RestaurantCard key={place.id} place={place}/>
