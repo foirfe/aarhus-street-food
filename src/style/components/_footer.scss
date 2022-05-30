@@ -1,3 +1,47 @@
 .footer{
     background: #C2ACA6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2% 0 2% 0;
+    a{
+        width: 30%;
+        margin-left: 2%;
+        img{
+            width: 100%;
+        }
+    }
+    .footerinfo{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        width: 60%;
+        p{
+            margin: 1% 0 1% 0;
+        }
+        .infobold{
+            font-weight: 800;
+        }
+        .infoitalic{
+            font-style: italic;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        a{
+            width: 20%;
+        }
+        .footerinfo{
+            font-size: 1.25em;
+        }
+    }
+    @media only screen and (min-width: 1024px){
+        justify-content: center;
+        a{
+            width: 10%;
+        }
+        .footerinfo{
+            text-align: center;
+            font-size: 1.5em;
+        }
+    }
 }

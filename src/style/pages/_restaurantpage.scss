@@ -73,4 +73,26 @@
             height: 20vh;}
         }
     }
+    @media only screen and (min-width: 1024px)
+    {
+        .restaurantheader{
+            height: 20vh;
+            width: 100%;
+            img{
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .menu{
+            padding-bottom: 2%;
+            .menucard{
+                width: 15%;
+                img{
+                    height: 100%;
+                }
+            }
+           
+            
+        }
+    }
 } 

@@ -55,7 +55,7 @@ export default function DiscoverCheckbox() {
                   </div>
                   <div className="label-box">
                      <label>
-                        <input type="checkbox" value="mildt" onChange={(e) => setMildt(e.target.checked)} checked={mildt} />
+                        <input type="checkbox" value="mildt" onChange={(e) => setMildt(e.target.checked) } checked={mildt} />
                         <div className="span-icon-box">
                            <span className="span-icon">
                               <MdiChiliOffOutline />
@@ -122,8 +122,7 @@ export default function DiscoverCheckbox() {
                         </div>
                      </label>
                   </div>
-               </div>{" "}
-               {/* row 2 slut */}
+               </div>{/* row 2 slut */}
             </div>
             <button>SE DINE RETTER</button>
             <p>{errormessage}</p>

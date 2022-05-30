@@ -42,6 +42,143 @@ body {
 
 .footer {
   background: #C2ACA6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2% 0 2% 0;
+}
+
+.footer a {
+  width: 30%;
+  margin-left: 2%;
+}
+
+.footer a img {
+  width: 100%;
+}
+
+.footer .footerinfo {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  width: 60%;
+}
+
+.footer .footerinfo p {
+  margin: 1% 0 1% 0;
+}
+
+.footer .footerinfo .infobold {
+  font-weight: 800;
+}
+
+.footer .footerinfo .infoitalic {
+  font-style: italic;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer a {
+    width: 20%;
+  }
+  .footer .footerinfo {
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer a {
+    width: 10%;
+  }
+  .footer .footerinfo {
+    text-align: center;
+    font-size: 1.5em;
+  }
+}
+
+/* #ebdedb */
+#multiselectContainerReact {
+  width: 25%;
+  margin: auto;
+  margin-bottom: 1%;
+  text-align: left;
+}
+
+#multiselectContainerReact img {
+  width: 100%;
+}
+
+.searchWrapper {
+  background-color: #fff;
+}
+
+.searchWrapper ::-webkit-input-placeholder {
+  color: #fb6838;
+  font-weight: bold;
+}
+
+.searchWrapper :-ms-input-placeholder {
+  color: #fb6838;
+  font-weight: bold;
+}
+
+.searchWrapper ::-ms-input-placeholder {
+  color: #fb6838;
+  font-weight: bold;
+}
+
+.searchWrapper ::placeholder {
+  color: #fb6838;
+  font-weight: bold;
+}
+
+.optionListContainer {
+  color: #fb6838;
+}
+
+.optionListContainer .option:hover {
+  background-color: #ebdedb !important;
+  color: #fb6838;
+}
+
+.searchBox {
+  min-height: 1.5em;
+  font-size: 1em;
+  border-radius: none;
+}
+
+.chip {
+  background-color: #fb6838 !important;
+}
+
+@media only screen and (max-width: 500px) {
+  #multiselectContainerReact {
+    width: 50%;
+  }
+  #multiselectContainerReact .chip {
+    font-size: 1.3em;
+  }
+  #multiselectContainerReact ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  #multiselectContainerReact :-ms-input-placeholder {
+    font-size: 1.3em;
+  }
+  #multiselectContainerReact ::-ms-input-placeholder {
+    font-size: 1.3em;
+  }
+  #multiselectContainerReact ::placeholder {
+    font-size: 1.3em;
+  }
 }
 
 .homepage .homepagebanner {
@@ -100,18 +237,79 @@ body {
   left: 2%;
 }
 
-.homepage .filters {
+.homepage .curated h2 {
+  text-align: center;
+}
+
+.homepage .curated .curatedplace {
+  text-align: center;
+  width: 100%;
+}
+
+.homepage .curated .curatedplace h2 {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: left;
+  margin: 5% 0 0 2.5%;
+}
+
+.homepage .curated .curatedplace img {
+  width: 100%;
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 20vh;
+}
+
+.homepage .searchbar-container {
+  width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.homepage .filters p {
+.homepage input[type=search] {
+  position: relative;
+  padding: 15px 40px 15px 20px;
+  width: 20px;
+  color: #000000;
   text-transform: uppercase;
-  margin-right: 2%;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(#F9F9F9, #464747));
+  background: linear-gradient(to right, #FFFFFF 0%, #464747 #F9F9F9 100%);
+  -webkit-transition: width 0.4s ease;
+  transition: width 0.4s ease;
+  outline: none;
+}
+
+.homepage input[type=search]:focus {
+  width: 300px;
+}
+
+.homepage i {
+  position: relative;
+  left: -37px;
+  color: #000;
+}
+
+.homepage .errormessage {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .homepage .restaurantcard {
@@ -144,7 +342,7 @@ body {
 @media only screen and (min-width: 1024px) {
   .homepage .restaurantcard {
     height: 50vh;
-    width: 10%;
+    width: 15%;
     margin: 2% 2%;
   }
   .homepage .restaurantcard h3 {
@@ -197,6 +395,28 @@ body {
   /* img manipulation */
 }
 
+.discoverpage .discover-banner {
+  background-image: url(../img/Ispinde.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 1%;
+}
+
 .discoverpage svg path {
   color: #fff;
 }
@@ -204,6 +424,20 @@ body {
 .discoverpage svg {
   width: 3em;
   height: 3em;
+}
+
+.discoverpage .dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1%;
 }
 
 .discoverpage .span-icon {
@@ -214,6 +448,7 @@ body {
 }
 
 .discoverpage .span-text {
+  font-family: "Josefin, sans", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -243,7 +478,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 30%;
+  width: 40%;
   margin: auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -274,6 +509,16 @@ body {
 .discoverpage form input:checked + div {
   border-radius: 10px;
   background-color: #cb33dc;
+  -webkit-box-shadow: inset 0 0 10px black;
+          box-shadow: inset 0 0 10px black;
+}
+
+.discoverpage form input:checked + div span {
+  font-weight: bold;
+}
+
+.discoverpage form input:checked + div svg path {
+  fill: var(--discovercheckbox);
 }
 
 .discoverpage form button {
@@ -293,18 +538,17 @@ body {
   height: auto;
   font-size: 1em;
   font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .discoverpage h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
   color: #fff;
   text-align: center;
 }
 
 .discoverpage h3 {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5em;
   font-weight: bold;
   color: #fff;
@@ -314,18 +558,19 @@ body {
 }
 
 .discoverpage p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1em;
   font-weight: 700;
   text-align: center;
 }
 
 .discoverpage img {
-  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
       align-self: center;
-  margin: auto;
+  width: 10%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -335,8 +580,12 @@ body {
   .discoverpage form button {
     width: 25%;
   }
-  .discoverpage .row1, .discoverpage .row2 {
+  .discoverpage .row1,
+  .discoverpage .row2 {
     width: 40%;
+  }
+  .discoverpage img {
+    width: 16%;
   }
 }
 
@@ -347,6 +596,9 @@ body {
   .discoverpage form button {
     width: 40%;
   }
+  .discoverpage img {
+    width: 18%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -355,6 +607,9 @@ body {
   }
   .discoverpage form button {
     width: 50%;
+  }
+  .discoverpage img {
+    width: 30%;
   }
 }
 
@@ -459,6 +714,27 @@ body {
 .restaurantpage .menu .menucard img {
   width: 100%;
   height: 20vh;
+}
+
+@media only screen and (min-width: 1024px) {
+  .restaurantpage .restaurantheader {
+    height: 20vh;
+    width: 100%;
+  }
+  .restaurantpage .restaurantheader img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .restaurantpage .menu {
+    padding-bottom: 2%;
+  }
+  .restaurantpage .menu .menucard {
+    width: 15%;
+  }
+  .restaurantpage .menu .menucard img {
+    height: 100%;
+  }
 }
 
 /* .eventspage{
