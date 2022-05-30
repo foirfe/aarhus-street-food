@@ -1,5 +1,6 @@
 .infopage {
   color: #fff;
+  background-image: url("/src/img/Background.svg");
 
   .accordion {
     margin: 0;
@@ -39,21 +40,15 @@
     font-size: 1em;
     line-height: 1.5em;
     font-family: "Montserrat", sans-serif;
-  }
 
-  @media screen and (max-width: 700px) {
-    body {
-      font-size: 18px;
-    }
-
-    .accordion {
-      width: 90%;
+    @media screen and (min-width: 700px) {
+      font-size: 1.2em;
     }
   }
 }
 
 .infopage-s1-header {
-  background: url(../img/InfoOmBanner.png);
+
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -72,8 +67,17 @@
   img {
     margin-bottom: 2%;
   }
-}
 
+  @media screen and (min-width: 700px) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+
+    h1 {
+      padding: 30% 0 0% 0;
+    }
+  }
+}
 .infopage-s2 {
   margin: 0;
   box-sizing: border-box;
@@ -84,6 +88,16 @@
   margin: 2rem auto;
   font-family: "Josefin Sans", sans-serif;
   width: 90%;
+
+  @media screen and (min-width: 700px) {
+    h3 {
+      font-size: 1.9em;
+    }
+
+    img {
+      max-width: fit-content;
+    }
+  }
 
   img {
     margin: 0 auto;
@@ -102,5 +116,9 @@
     line-height: 1.5em;
     font-family: "Montserrat", sans-serif;
     text-align: justify;
+
+    @media screen and (min-width: 700px) {
+      font-size: 1.3em;
+    }
   }
 }
