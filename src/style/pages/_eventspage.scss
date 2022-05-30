@@ -1,4 +1,67 @@
-//Fjern kommentaren og style ind i den her
-/* .eventspage{
+.eventspage {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 
-} */
+   .img-element {
+      width: 100%;
+   }
+
+   .events {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      margin-bottom: 3%;
+      width: 90%;
+      padding: 2%;
+      background-color: #c1aaa4;
+      border-radius: 10px;
+
+      h2 {
+         margin-bottom: 1%;
+         color: #fff;
+      }
+      h3 {
+         color: #fff;
+      }
+      h4 {
+         margin: 0%;
+         font-family: "Josefin Sans", sans-serif;
+         color: #fff;
+      }
+      p,
+      li {
+         font-family: "Josefin Sans", sans-serif;
+         color: #fff;
+         line-height: 1.3em;
+      }
+   }
+   @media only screen and (max-width: 768px) {
+      .events {
+         width: 80%;
+      }
+   }
+   @media only screen and (max-width: 1024px) {
+      .events {
+         width: 60%;
+         font-size: 130%;
+      }
+      .img-element {
+         width: 85%;
+      }
+   }
+   @media only screen and (min-width: 1025px) {
+           .events {
+                   width: 45%;
+           }
+           .img-element {
+                   width: 80%;
+           }
+
+           font-size: 130%;
+
+           
+
+   }
+}
