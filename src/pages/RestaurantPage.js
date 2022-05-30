@@ -42,7 +42,6 @@ export default function RestaurantPage() {
       </div>
    </div>
 ))}
-   <p>Sorter efter</p>
 <div className="menu">
 {menu.map(menuItem =>(  
    <MenuCard key={menuItem.id} menuItem={menuItem}/>

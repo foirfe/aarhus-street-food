@@ -33,7 +33,19 @@ export default function ContactPage() {
           <br></br>
 
           <h3>FIND OS HER</h3>
-          <p>her kommer google mapsis</p>
+          <div className="googlemap">
+          <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2222.3256480742216!2d10.20708911584501!3d56.15147398066189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f902c893789%3A0x19bb52fd461e313b!2sAarhus%20Street%20Food!5e0!3m2!1sda!2sdk!4v1653898338322!5m2!1sda!2sdk"
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              aria-hidden="false"
+              tabIndex="0"
+              title="Google maps"
+            />
+            </div>
         </div>
       </div>
       <br></br>
