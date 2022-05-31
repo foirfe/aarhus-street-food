@@ -253,6 +253,7 @@ body {
   font-size: 2em;
   text-align: left;
   margin: 5% 0 0 2.5%;
+  text-shadow: 2px 2px black;
 }
 
 .homepage .curated .curatedplace img {
@@ -337,6 +338,7 @@ body {
   color: white;
   margin: 2% 0 2% 2%;
   font-size: 2em;
+  text-shadow: 2px 2px black;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -353,6 +355,7 @@ body {
     margin: 2% 2% 0 0;
     position: inherit;
     color: black;
+    text-shadow: none;
   }
 }
 
@@ -613,9 +616,81 @@ body {
   }
 }
 
-/* .resultpage{
+.resultpage {
+  background-size: cover;
+  min-height: 100vh;
+  height: auto !important;
+}
 
-} */
+.resultpage .result-banner {
+  background-image: url(../img/InfoOmBanner.png);
+  background-repeat: no-repeat;
+  background-position-x: 10%;
+  background-position-y: 40%;
+  background-size: cover;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 1%;
+}
+
+.resultpage h1 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.resultpage p {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.resultpage .resultcard {
+  width: 100%;
+  position: relative;
+  color: white;
+}
+
+.resultpage .resultcard h2 {
+  position: absolute;
+  margin: 0;
+  text-transform: uppercase;
+  text-shadow: 2px 2px black;
+}
+
+.resultpage .resultcard h3 {
+  position: absolute;
+  margin: 0;
+  right: 1%;
+  bottom: 10%;
+  text-shadow: 2px 2px black;
+}
+
+.resultpage .resultcard img {
+  width: 100%;
+  height: 20vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.resultpage .resultcard p {
+  margin: 0;
+}
+
 .restaurantpage .restaurantheader {
   position: relative;
 }
@@ -624,6 +699,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   color: #E68938;
+  text-shadow: 2px 2px black;
   font-size: 3em;
   font-weight: 800;
   position: absolute;
@@ -700,6 +776,7 @@ body {
   color: white;
   font-size: 2em;
   word-wrap: break-word;
+  text-shadow: 2px 2px #E68938;
 }
 
 .restaurantpage .menu .menucard p {
@@ -731,9 +808,6 @@ body {
   }
   .restaurantpage .menu .menucard {
     width: 15%;
-  }
-  .restaurantpage .menu .menucard img {
-    height: 100%;
   }
 }
 
@@ -824,12 +898,11 @@ body {
 }
 
 .joinuspage {
-  color: black;
+  color: #fff;
   background-image: url("/src/img/Background.svg");
 }
 
 .joinuspage-s1-header {
-  background: url(../img/JoinUsBanner.png);
   height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1134,6 +1207,12 @@ body {
   line-height: 1.5em;
   font-family: "Montserrat", sans-serif;
   text-align: justify;
+}
+
+.contactpage-s2-text .googlemap {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2%;
 }
 
 .contactpage-s2-text h3 {

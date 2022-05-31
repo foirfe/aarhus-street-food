@@ -1,10 +1,9 @@
 .joinuspage {
-  color: black;
+  color: #fff;
   background-image: url("/src/img/Background.svg");
 }
 
 .joinuspage-s1-header {
-  background: url(../img/JoinUsBanner.png);
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -71,6 +70,5 @@
     font-weight: bold;
     padding: 2% 10% 2% 10%;
     margin-bottom: 20%;
-   
   }
 }
