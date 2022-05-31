@@ -1,5 +1,6 @@
 //Louise
 import Logo from "../img/Logo.png";
+import BackButton from "../components/BackButton";
 
 export default function ContactPage() {
   return (
@@ -45,6 +46,7 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
+      <BackButton/>
     </div>
   );
 }

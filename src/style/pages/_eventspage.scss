@@ -1,67 +1,103 @@
 .eventspage {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
 
-   .img-element {
-      width: 100%;
-   }
+  .eventspage-s1-header {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 
-   .events {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: auto;
-      margin-bottom: 3%;
+    h1 {
+      text-align: center;
+      padding: 30% 0 0% 0;
+      margin: 0 auto;
+      font-size: 2.2em;
+      width: 75%;
+      color: white;
+    }
+
+    img {
+      margin-bottom: 2%;
+    }
+  }
+  .img-element {
+    width: 100%;
+  }
+
+  .backbutton img {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 70px;
+    height: auto;
+  }
+
+  .events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 3%;
+    width: 90%;
+    padding: 2%;
+    background-color: #c1aaa4;
+    border-radius: 10px;
+
+    h2 {
+      margin-bottom: 1%;
+
       width: 90%;
-      padding: 2%;
-      background-color: #c1aaa4;
-      border-radius: 10px;
+    }
+    h3 {
+      width: 90%;
+    }
+    h4 {
+      margin: 0%;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
 
-      h2 {
-         margin-bottom: 1%;
-         color: #fff;
-      }
-      h3 {
-         color: #fff;
-      }
-      h4 {
-         margin: 0%;
-         font-family: "Josefin Sans", sans-serif;
-         color: #fff;
-      }
-      p,
-      li {
-         font-family: "Josefin Sans", sans-serif;
-         color: #fff;
-         line-height: 1.3em;
-      }
-   }
-   @media only screen and (max-width: 768px) {
-      .events {
-         width: 80%;
-      }
-   }
-   @media only screen and (max-width: 1024px) {
-      .events {
-         width: 60%;
-         font-size: 130%;
-      }
-      .img-element {
-         width: 85%;
-      }
-   }
-   @media only screen and (min-width: 1025px) {
-           .events {
-                   width: 45%;
-           }
-           .img-element {
-                   width: 80%;
-           }
+      width: 90%;
+    }
+    p,
+    ul {
+      font-family: "Montserrat", sans-serif;
+      line-height: 1.3em;
+      width: 90%;
+    }
 
-           font-size: 130%;
+    ul {
+      list-style: none;
+      
+    }
+    
+    li {
+      padding-top: 7%;
+    }
+  }
 
-           
+  @media only screen and (max-width: 768px) {
+    .events {
+      width: 80%;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .events {
+      font-size: 1em;
+    }
+    .img-element {
+      width: 85%;
+    }
+  }
+  @media only screen and (min-width: 1025px) {
+    .events {
+      width: 45%;
+    }
+    .img-element {
+      width: 80%;
+    }
 
-   }
+    font-size: 130%;
+  }
 }

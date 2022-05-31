@@ -2,6 +2,11 @@
   color: #fff;
   background-image: url("/src/img/Background.svg");
   background-size: cover;
+
+  .backbutton img {
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
 }
 
 .contactpage-s1-header {
@@ -16,7 +21,7 @@
     text-align: center;
     padding: 30% 0 0% 0;
     margin: 0 auto;
-    font-size: 3em;
+    font-size: 2.2em;
     width: 75%;
     color: white;
   }
@@ -56,11 +61,10 @@
     font-family: "Montserrat", sans-serif;
     text-align: justify;
   }
-  .googlemap{
+  .googlemap {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 2%;
- 
   }
 
   h3 {
