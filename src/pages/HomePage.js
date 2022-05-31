@@ -40,7 +40,7 @@ export default function HomePage() {
    return (
       <div className="homepage">
          <div className="homepagebanner">
-         <h1>Velkommen til</h1>
+         <h1>VELKOMMEN TIL</h1>
          <img src={Logo} alt="Aarhus Street Food" />
             <p>
                Lyst til at prøve noget nyt? Prøv vores nye <span onClick={handleClick}>discover</span> funktion og find din nye yndlingsret

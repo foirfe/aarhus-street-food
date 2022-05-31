@@ -183,8 +183,6 @@ body {
 }
 
 .homepage .homepagebanner {
-  background: url(../img/HomePageBanner.png);
-  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -200,30 +198,31 @@ body {
 }
 
 .homepage .homepagebanner p {
-  font-family: 'Josefin Sans', sans-serif;
-  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  color: #1d3029;
   font-weight: bold;
   font-size: 1.25em;
   margin: 0 auto;
   width: 90%;
   text-transform: uppercase;
+  padding-bottom: 10%;
 }
 
 .homepage .homepagebanner h1 {
   text-align: center;
-  padding: 20% 0 10% 0;
+  padding-top: 30%;
+  padding-bottom: 15%;
   margin: 0 auto;
-  font-size: 3em;
-  width: 75%;
+  font-size: 2.5em;
   color: white;
 }
 
 .homepage .homepagebanner img {
-  margin-bottom: 2%;
+  margin-bottom: 10%;
 }
 
 .homepage .homepagebanner button {
-  background: #D79F55;
+  background: #d79f55;
   font-family: Helvetica, sans-serif;
   text-transform: uppercase;
   border-style: none;
@@ -231,7 +230,7 @@ body {
   color: white;
   font-weight: bold;
   padding: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
   margin-right: auto;
   margin-left: 5%;
   bottom: 10%;
@@ -239,7 +238,8 @@ body {
 }
 
 .homepage .curated h2 {
-  text-align: center;
+  padding-left: 5%;
+  font-size: 1em;
 }
 
 .homepage .curated .curatedplace {
@@ -249,12 +249,14 @@ body {
 
 .homepage .curated .curatedplace h2 {
   position: absolute;
-  color: white;
+  color: #1d3029;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1em;
   text-align: left;
-  margin: 5% 0 0 2.5%;
-  text-shadow: 2px 2px black;
+  background-color: #ffffff;
+  padding: 4% 5% 5% 2%;
+  opacity: 0.8;
+  max-width: 80%;
 }
 
 .homepage .curated .curatedplace img {
@@ -279,7 +281,7 @@ body {
           align-items: center;
 }
 
-.homepage input[type=search] {
+.homepage input[type="search"] {
   position: relative;
   padding: 15px 40px 15px 20px;
   width: 20px;
@@ -290,14 +292,14 @@ body {
   letter-spacing: 2px;
   border: none;
   border-radius: 5px;
-  background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(#F9F9F9, #464747));
-  background: linear-gradient(to right, #FFFFFF 0%, #464747 #F9F9F9 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(#f9f9f9, #464747));
+  background: linear-gradient(to right, #ffffff 0%, #464747 #f9f9f9 100%);
   -webkit-transition: width 0.4s ease;
   transition: width 0.4s ease;
   outline: none;
 }
 
-.homepage input[type=search]:focus {
+.homepage input[type="search"]:focus {
   width: 300px;
 }
 
@@ -309,7 +311,7 @@ body {
 
 .homepage .errormessage {
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
   font-size: 1.5em;
 }
@@ -328,6 +330,7 @@ body {
 }
 
 .homepage .restaurantcard img {
+  display: block;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -336,10 +339,13 @@ body {
 .homepage .restaurantcard h3 {
   text-transform: uppercase;
   position: absolute;
-  color: white;
-  margin: 2% 0 2% 2%;
-  font-size: 2em;
-  text-shadow: 2px 2px black;
+  color: #1d3029;
+  margin: 8% 0 0% 0%;
+  font-size: 1.3em;
+  background-color: #ffffff;
+  padding: 4% 5% 5% 2%;
+  opacity: 0.8;
+  max-width: 80%;
 }
 
 @media only screen and (min-width: 1024px) {
