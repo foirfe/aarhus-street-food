@@ -1,5 +1,6 @@
 .joinuspage {
-  color: #fff;
+  color: black;
+  background-image: url("/src/img/Background.svg");
 }
 
 .joinuspage-s1-header {
@@ -21,6 +22,15 @@
 
   img {
     margin-bottom: 2%;
+  }
+  @media screen and (min-width: 700px) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+
+    h1 {
+      padding: 30% 0 0% 0;
+    }
   }
 }
 
@@ -61,5 +71,6 @@
     font-weight: bold;
     padding: 2% 10% 2% 10%;
     margin-bottom: 20%;
+   
   }
 }

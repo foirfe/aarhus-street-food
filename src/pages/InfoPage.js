@@ -6,6 +6,8 @@ import Owners from "../img/Owners.png";
 export default function InfoPage() {
   return (
     <div className="infopage">
+    
+
       <div className="infopage-s1-header">
         <h1>INFO OM</h1>
         <img src={Logo} alt="Aarhus Street Food" />

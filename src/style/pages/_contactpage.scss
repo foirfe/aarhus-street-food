@@ -1,9 +1,12 @@
 .contactpage {
   color: #fff;
+  background-image: url("/src/img/Background.svg");
+  background-size: cover;
 }
 
 .contactpage-s1-header {
-  background: url(../img/KontaktBanner.png);
+
+  background-repeat: no-repeat;
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -21,6 +24,16 @@
 
   img {
     margin-bottom: 2%;
+  }
+
+  @media screen and (min-width: 700px) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+
+    h1 {
+      padding: 30% 0 0% 0;
+    }
   }
 }
 
@@ -53,5 +66,14 @@
 
   h3 {
     padding: 10% 5% 0% 5%;
+  }
+  @media screen and (min-width: 700px) {
+    h3 {
+      font-size: 1.6em;
+    }
+    p {
+      font-size: 1.3em;
+      line-height: 1.5em;
+    }
   }
 }

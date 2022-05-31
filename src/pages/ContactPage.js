@@ -5,6 +5,7 @@ import Logo from "../img/Logo.png";
 export default function ContactPage() {
   return (
     <div className="contactpage">
+      <div className="wrapper-tablet">
       <div className="contactpage-s1-header">
         <h1>KONTAKT</h1>
         <img src={Logo} alt="Aarhus Street Food" />
@@ -50,6 +51,7 @@ export default function ContactPage() {
       </div>
       <br></br>
       <br></br>
+    </div>
     </div>
   );
 }
