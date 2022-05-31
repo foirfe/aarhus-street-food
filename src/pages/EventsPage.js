@@ -1,5 +1,7 @@
 import StandUp from "../img/StandUp.jpg";
 import SommerBio from "../img/SommerBio.jpg";
+import BackButton from "../components/BackButton";
+
 
 export default function EventsPage() {
    return (
@@ -34,6 +36,7 @@ export default function EventsPage() {
                <li>Tirsdag d. 16 august: Druk</li>
             </ul>
          </div>
+         <BackButton/>
       </div>
    );
 }

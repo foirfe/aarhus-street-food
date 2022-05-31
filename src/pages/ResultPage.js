@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { useNavigate } from "react-router-dom";
+import BackButton from "../components/BackButton";
 
 export default function ResultPage() {
    const navigate = useNavigate();
@@ -113,6 +114,8 @@ function handleClick(menuItem){
             ))}
             </Swiper>
          </div>
+         <BackButton />
       </div>
+      
    );
 }

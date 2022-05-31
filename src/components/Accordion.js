@@ -1,3 +1,4 @@
+//Louise
 import { useState } from "react";
 
 const Accordion = ({ question, answer }) => {
@@ -16,7 +17,7 @@ const Accordion = ({ question, answer }) => {
         {isActive && <div className="accordion-answer">{answer}</div>}
       </div>
     </>
-    //useState læser isActive, og finder ud af om questions er blevet klikket på, hvis den er, så returnere isActive som true og viser contentet i Answer.
+    //useState isActive kigger på om questions er blevet klikket på, hvis den er, så returnere isActive som true og viser contentet i Answer, som passer til det 'accordion-question der er klikket på.
   );
 };
 

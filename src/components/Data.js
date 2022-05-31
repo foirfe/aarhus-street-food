@@ -1,3 +1,4 @@
+//Louise 
 //array med objekter - ligger i en seperat fil, for at koden er bedre struktureret og nemmere at forstå.
 
 export const Data = [
