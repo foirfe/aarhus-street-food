@@ -10,7 +10,7 @@ export default function RestaurantPage() {
    const [menu, setMenu] = useState([]);
    
    useEffect(()=>{
-
+      //Fetch af boder og menukort for at så kunne finde hvilken bod der er blevet valgt baseret af params.
       async function getPlaceAndMenu(){
          const response = await fetch("../data/da_places.json");
          const data = await response.json();

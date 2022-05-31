@@ -6,6 +6,7 @@ import {useEffect} from "react";
 export default function DiscoverPage() {
 
    useEffect(()=>{
+      //Function til at nulstille localstorage om allergi når man kommer tilbage på siden
 function removeDropdownItems()
 {
    localStorage.removeItem("laktose");
