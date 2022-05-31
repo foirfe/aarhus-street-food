@@ -1,5 +1,6 @@
 import Logo from "../img/Logo.png";
 import { useNavigate } from "react-router-dom";
+import BackButton from "../components/BackButton";
 
 export default function JoinUsPage() {
   const navigate = useNavigate();
@@ -59,6 +60,7 @@ export default function JoinUsPage() {
       </div>
       <br></br>
       <br></br>
+      <BackButton/>
     </div>
   );
 }

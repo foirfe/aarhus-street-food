@@ -2,6 +2,7 @@ import DiscoverCheckbox from "../components/DiscoverCheckbox";
 import DiscoverDropDown from "../components/DiscoverDropDown";
 import Logo from "../img/Logo.png";
 import {useEffect} from "react";
+import BackButton from "../components/BackButton";
 
 export default function DiscoverPage() {
 
@@ -27,6 +28,7 @@ removeDropdownItems();
             <DiscoverCheckbox />  
          </div>
          <DiscoverDropDown />
+         <BackButton/>
       </div>
    );
 }
