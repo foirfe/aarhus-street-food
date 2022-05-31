@@ -35,12 +35,14 @@ export default function ResultPage() {
       };
 
       async function getData() {
+         //Fetch af menukortet
          const response = await fetch("./data/da_menu.json");
          const data = await response.json();
          const filters = getFilters();
          const results = data.filter((item) => filters.includes(item.tags));
          results.sort(() => Math.random() - 0.5);
-            function checkSafetyTags(){
+         //Function der checker om safetytags, men har ikke den rigtige funktion hvis flere bliver valgt   
+         function checkSafetyTags(){
                const safetyresults = [];
             if(localStorage.getItem("nuts")){
             const nonuts = results.filter(item => item.safetytags !== "nuts");
@@ -63,10 +65,13 @@ export default function ResultPage() {
          console.log(safetyresults);
          return safetyresults;
       }
+
       const safetyresults = checkSafetyTags();
+      //Sætter state af Menu alt efter om allergi er blevet valgt eller ej.
          if(localStorage.getItem("nuts")||localStorage.getItem("laktose")||localStorage.getItem("gluten"))
          {
-         setMenu(safetyresults);
+         const safetyresultsnodupli = Array.from(new Set(safetyresults));
+         setMenu(safetyresultsnodupli);
          }
          else {
             setMenu(results)
@@ -79,7 +84,6 @@ export default function ResultPage() {
    }, []);
 
 function handleClick(menuItem){
-   console.log(menuItem.slug);
    navigate(`/restaurant/${menuItem.slug}`)
 }
    return (
