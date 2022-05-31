@@ -3,20 +3,21 @@
   --stripes: #3b52c1;
   --button: #9e34e0;
   --burger: #f4a64a;
+  background-image: url("/src/img/Background.svg");
 }
 
 h1 {
   margin: 0;
   padding: 2% 0 2% 0;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h2 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h3 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 a {
@@ -388,9 +389,6 @@ body {
 }
 
 .discoverpage {
-  background-size: cover;
-  min-height: 100vh;
-  height: auto !important;
   /* svg manipulation */
   /* ------------------------ */
   /* checkbox icon og text flexing */
@@ -399,7 +397,6 @@ body {
 }
 
 .discoverpage .discover-banner {
-  background-image: url(../img/Ispinde.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -420,13 +417,28 @@ body {
   margin-bottom: 1%;
 }
 
+.discoverpage h1 {
+  text-align: center;
+  padding: 30% 0 0% 0;
+  margin: 0 auto;
+  font-size: 3em;
+  width: 75%;
+  color: white;
+}
+
+.discoverpage img {
+  margin-bottom: 2%;
+}
+
 .discoverpage svg path {
   color: #fff;
 }
 
 .discoverpage svg {
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
+  padding-bottom: 30%;
+  padding-top: 30%;
 }
 
 .discoverpage .dropdown {
@@ -441,6 +453,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin: 1%;
+}
+
+.discoverpage .searchWrapper {
+  margin-top: 30%;
+}
+
+.discoverpage .searchBox {
+  font-size: 0.9em;
 }
 
 .discoverpage .span-icon {
@@ -460,6 +480,8 @@ body {
   padding-bottom: 6%;
   -ms-flex-item-align: center;
       align-self: center;
+  font-size: 0.6em;
+  text-transform: uppercase;
 }
 
 .discoverpage .span-icon-box {
@@ -473,7 +495,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 2em 0em 2em 0em;
+  margin: 3em 0em 3em 0em;
   text-align: center;
 }
 
@@ -493,11 +515,13 @@ body {
 }
 
 .discoverpage .label-box {
-  width: 70%;
-  height: auto;
+  width: 80%;
+  height: 100px;
   margin: auto;
-  background-color: #9b33dc;
+  background-color: #9b33dcca;
   border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .discoverpage .row1,
@@ -511,9 +535,11 @@ body {
 
 .discoverpage form input:checked + div {
   border-radius: 10px;
+  height: 100px;
   background-color: #cb33dc;
-  -webkit-box-shadow: inset 0 0 10px black;
-          box-shadow: inset 0 0 10px black;
+  opacity: 0.8;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .discoverpage form input:checked + div span {
@@ -521,27 +547,28 @@ body {
 }
 
 .discoverpage form input:checked + div svg path {
-  fill: var(--discovercheckbox);
+  fill: #fff;
 }
 
 .discoverpage form button {
   color: #fff;
-  background-color: #D79F55;
-  border: #D79F55;
-  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: auto;
-  padding: 1%;
-  width: 13%;
+  margin: 0 auto;
+  margin-top: 10%;
   height: auto;
-  font-size: 1em;
-  font-weight: bold;
-  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.9em;
+  background: #f2a036;
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  border-style: none;
+  border-radius: 3px;
+  padding: 3%;
+  bottom: 10%;
 }
 
 .discoverpage h1 {
@@ -552,12 +579,15 @@ body {
 }
 
 .discoverpage h3 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
   color: #fff;
-  text-align: center;
+  text-align: left;
   width: 60%;
-  margin: auto;
+  padding-left: 5%;
+  padding-top: 10%;
+  color: #1d3029;
+  text-transform: uppercase;
 }
 
 .discoverpage p {
@@ -573,7 +603,7 @@ body {
   display: flex;
   -ms-flex-item-align: center;
       align-self: center;
-  width: 10%;
+  width: 20%;
 }
 
 @media only screen and (max-width: 1024px) {

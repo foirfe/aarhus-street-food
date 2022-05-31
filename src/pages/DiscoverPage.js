@@ -19,7 +19,7 @@ removeDropdownItems();
    return (
       <div className="discoverpage">
          <div className="discover-banner">
-            <h1>Discover</h1>
+            <h1>DISCOVER</h1>
             <img src={Logo} alt="Århus street food" />
          </div>
          <h3>Vælg nogle smage du kan lide, og få nogle forslag til din ynglingsret.</h3>
