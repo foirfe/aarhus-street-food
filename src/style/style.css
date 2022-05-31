@@ -824,7 +824,8 @@ body {
 }
 
 .joinuspage {
-  color: #fff;
+  color: black;
+  background-image: url("/src/img/Background.svg");
 }
 
 .joinuspage-s1-header {
@@ -855,6 +856,17 @@ body {
 
 .joinuspage-s1-header img {
   margin-bottom: 2%;
+}
+
+@media screen and (min-width: 700px) {
+  .joinuspage-s1-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+  }
+  .joinuspage-s1-header h1 {
+    padding: 30% 0 0% 0;
+  }
 }
 
 .joinuspage-s2-text {
@@ -901,6 +913,7 @@ body {
 
 .infopage {
   color: #fff;
+  background-image: url("/src/img/Background.svg");
 }
 
 .infopage .accordion {
@@ -952,17 +965,13 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-@media screen and (max-width: 700px) {
-  .infopage body {
-    font-size: 18px;
-  }
-  .infopage .accordion {
-    width: 90%;
+@media screen and (min-width: 700px) {
+  .infopage .accordion-answer {
+    font-size: 1.2em;
   }
 }
 
 .infopage-s1-header {
-  background: url(../img/InfoOmBanner.png);
   height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -991,6 +1000,17 @@ body {
   margin-bottom: 2%;
 }
 
+@media screen and (min-width: 700px) {
+  .infopage-s1-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+  }
+  .infopage-s1-header h1 {
+    padding: 30% 0 0% 0;
+  }
+}
+
 .infopage-s2 {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -1002,6 +1022,17 @@ body {
   margin: 2rem auto;
   font-family: "Josefin Sans", sans-serif;
   width: 90%;
+}
+
+@media screen and (min-width: 700px) {
+  .infopage-s2 h3 {
+    font-size: 1.9em;
+  }
+  .infopage-s2 img {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
 }
 
 .infopage-s2 img {
@@ -1029,12 +1060,20 @@ body {
   text-align: justify;
 }
 
+@media screen and (min-width: 700px) {
+  .infopage-s2 p {
+    font-size: 1.3em;
+  }
+}
+
 .contactpage {
   color: #fff;
+  background-image: url("/src/img/Background.svg");
+  background-size: cover;
 }
 
 .contactpage-s1-header {
-  background: url(../img/KontaktBanner.png);
+  background-repeat: no-repeat;
   height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1063,6 +1102,17 @@ body {
   margin-bottom: 2%;
 }
 
+@media screen and (min-width: 700px) {
+  .contactpage-s1-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+  }
+  .contactpage-s1-header h1 {
+    padding: 30% 0 0% 0;
+  }
+}
+
 .contactpage-s2-text {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -1088,5 +1138,15 @@ body {
 
 .contactpage-s2-text h3 {
   padding: 10% 5% 0% 5%;
+}
+
+@media screen and (min-width: 700px) {
+  .contactpage-s2-text h3 {
+    font-size: 1.6em;
+  }
+  .contactpage-s2-text p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
