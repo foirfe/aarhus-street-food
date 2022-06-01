@@ -4,6 +4,7 @@ import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay"
 import { useNavigate } from "react-router-dom";
+import { CircleFlag } from "react-circle-flags";
 
 export default function CuratedRestaurants() {
    const navigate = useNavigate();
@@ -38,30 +39,39 @@ export default function CuratedRestaurants() {
                <div className="curatedplace">
                   <h2>{curatedPlaces[0]?.name}</h2>
                   <img src={curatedPlaces[0]?.image_url} alt={curatedPlaces[0]?.name} />
+                  <CircleFlag countryCode={curatedPlaces[0]?.countrycode}/>
                </div>
             </SwiperSlide>
             <SwiperSlide id={1} onClick={handleClick}>
                <div className="curatedplace">
                   <h2>{curatedPlaces[1]?.name}</h2>
                   <img src={curatedPlaces[1]?.image_url} alt={curatedPlaces[1]?.name} />
+                  <CircleFlag countryCode={curatedPlaces[1]?.countrycode}/>
+
                </div>
             </SwiperSlide>
             <SwiperSlide id={2} onClick={handleClick}>
                <div className="curatedplace">
                   <h2>{curatedPlaces[2]?.name}</h2>
                   <img src={curatedPlaces[2]?.image_url} alt={curatedPlaces[2]?.name} />
+                  <CircleFlag countryCode={curatedPlaces[2]?.countrycode}/>
+
                </div>
             </SwiperSlide>
             <SwiperSlide id={3} onClick={handleClick}>
                <div className="curatedplace">
                   <h2>{curatedPlaces[3]?.name}</h2>
                   <img src={curatedPlaces[3]?.image_url} alt={curatedPlaces[3]?.name} />
+                  <CircleFlag countryCode={curatedPlaces[3]?.countrycode}/>
+
                </div>
             </SwiperSlide>
             <SwiperSlide id={4} onClick={handleClick}>
                <div className="curatedplace">
                   <h2>{curatedPlaces[4]?.name}</h2>
                   <img src={curatedPlaces[4]?.image_url} alt={curatedPlaces[4]?.name} />
+                  <CircleFlag countryCode={curatedPlaces[4]?.countrycode}/>
+
                </div>
             </SwiperSlide>
             ...
