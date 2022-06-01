@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay"
 import { useNavigate } from "react-router-dom";
@@ -33,7 +32,6 @@ export default function CuratedRestaurants() {
             slideToClickedSlide={true}
             preventClicks={true}
             preventClicksPropagation={true}
-            autoplay={{delay: 2000 }}
          >
             <SwiperSlide id={0} onClick={handleClick}>
                <div className="curatedplace">
