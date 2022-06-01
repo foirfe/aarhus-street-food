@@ -31,19 +31,16 @@
   }
 
   /* svg manipulation */
-  svg {
-    color: #1d3029;
-  }
+  
 
-  svg path {
-    color: #1d3029;
-  }
+ 
 
   svg {
     width: 2em;
     height: 2em;
     padding-bottom: 30%;
     padding-top: 30%;
+    color: #fff
   }
   /* ------------------------ */
 
@@ -52,26 +49,56 @@
     flex-direction: column;
     align-items: center;
     margin: 1%;
+    
   }
   .searchWrapper {
-    margin-top: 30%;
+    margin-top: 70%;
+    font-size: 0.7em;
+    width: 160%;
+ 
   }
   .searchBox {
     font-size: 0.9em;
+    text-transform: uppercase;
+   
   }
+  .multiSelectContainer ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 250px;
+    overflow-y: auto;
+  }
+  .optionListContainer {
+    position: absolute;
+    width: 160%;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 1px;
+    z-index: 2;
+}
+
+.chip {
+  
+  font-family: 'montserrat';
+  font-size: 0.9em;
+}
+
 
   /* checkbox icon og text flexing */
 
   .span-icon {
     display: flex;
     padding-top: 6%;
-    color: #1d3029;
+    color: #fff;
   }
 
   .span-text {
     font-family: "Josefin, sans", sans-serif;
     display: flex;
-    color: #1d3029;
+    color: #fff;
     margin: 1%;
     padding-bottom: 6%;
     align-self: center;
@@ -98,10 +125,9 @@
     width: 80%;
     height: 100px;
     margin: auto;
-    background-color: rgb(229, 224, 224);
+    background-color: rgba(59, 89, 78, 0.385);
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
 
   .row1,
@@ -117,10 +143,9 @@
     input:checked + div {
       border-radius: 10px;
       height: 100px;
-      background-color: #cb33dc;
-      opacity: 0.8;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      background-color: #1d3029d3;
+      opacity: 0.9;
+      box-shadow: rgba(35, 35, 52, 0.365) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
       span {
         font-weight: bold;
       }
@@ -233,5 +258,9 @@
     img {
       width: 30%;
     }
+  }
+  #multiselectContainerReact .chip {
+  
+    font-size: 0.9em;
   }
 }
