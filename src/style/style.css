@@ -394,7 +394,20 @@ body {
   }
 }
 
+.discoverpage {
+  /* svg manipulation */
+  /* ------------------------ */
+  /* checkbox icon og text flexing */
+  /* text manipulation */
+  /* img manipulation */
+}
 
+.discoverpage .backbutton img {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  width: 70px;
+  height: auto;
+}
 
 .discoverpage .discover-banner {
   background-repeat: no-repeat;
@@ -646,15 +659,7 @@ body {
   }
 }
 
-.resultpage {
-  background-size: cover;
-  min-height: 100vh;
-  height: auto !important;
-}
-
 .resultpage .result-banner {
-  background-image: url(../img/InfoOmBanner.png);
-  background-repeat: no-repeat;
   background-position-x: 10%;
   background-position-y: 40%;
   background-size: cover;
@@ -712,7 +717,7 @@ body {
 
 .resultpage .resultcard img {
   width: 100%;
-  height: 20vh;
+  height: 40vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -849,13 +854,47 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  color: #fff;
+}
+
+.eventspage .eventspage-s1-header {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.eventspage .eventspage-s1-header h1 {
+  text-align: center;
+  padding: 30% 0 0% 0;
+  margin: 0 auto;
+  font-size: 2.2em;
+  width: 75%;
+  color: white;
+}
+
+.eventspage .eventspage-s1-header img {
+  margin-bottom: 2%;
 }
 
 .eventspage .img-element {
   width: 100%;
+}
+
+.eventspage .backbutton img {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  width: 70px;
+  height: auto;
 }
 
 .eventspage .events {
@@ -879,24 +918,33 @@ body {
 
 .eventspage .events h2 {
   margin-bottom: 1%;
-  color: #fff;
+  width: 90%;
 }
 
 .eventspage .events h3 {
-  color: #fff;
+  width: 90%;
 }
 
 .eventspage .events h4 {
   margin: 0%;
-  font-family: "Josefin Sans", sans-serif;
-  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  width: 90%;
 }
 
 .eventspage .events p,
-.eventspage .events li {
-  font-family: "Josefin Sans", sans-serif;
-  color: #fff;
+.eventspage .events ul {
+  font-family: "Montserrat", sans-serif;
   line-height: 1.3em;
+  width: 90%;
+}
+
+.eventspage .events ul {
+  list-style: none;
+}
+
+.eventspage .events li {
+  padding-top: 7%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -907,8 +955,7 @@ body {
 
 @media only screen and (max-width: 1024px) {
   .eventspage .events {
-    width: 60%;
-    font-size: 130%;
+    font-size: 1em;
   }
   .eventspage .img-element {
     width: 85%;
@@ -932,6 +979,11 @@ body {
   background-image: url("/src/img/Background.svg");
 }
 
+.backbutton img {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
 .joinuspage-s1-header {
   height: 80vh;
   display: -webkit-box;
@@ -952,7 +1004,7 @@ body {
   text-align: center;
   padding: 30% 0 0% 0;
   margin: 0 auto;
-  font-size: 3em;
+  font-size: 2.2em;
   width: 75%;
   color: white;
 }
@@ -1012,11 +1064,17 @@ body {
   font-weight: bold;
   padding: 2% 10% 2% 10%;
   margin-bottom: 20%;
+  margin-left: 25%;
 }
 
 .infopage {
   color: #fff;
   background-image: url("/src/img/Background.svg");
+}
+
+.infopage .backbutton img {
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 .infopage .accordion {
@@ -1028,6 +1086,7 @@ body {
   border-bottom: 10px;
   background: #c1aaa4;
   max-width: 600px;
+  width: 90%;
   margin: 2rem auto;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -1140,7 +1199,7 @@ body {
 
 .infopage-s2 img {
   margin: 0 auto;
-  width: 100%;
+  width: 90%;
   height: 36vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1175,6 +1234,11 @@ body {
   background-size: cover;
 }
 
+.contactpage .backbutton img {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
 .contactpage-s1-header {
   background-repeat: no-repeat;
   height: 80vh;
@@ -1196,7 +1260,7 @@ body {
   text-align: center;
   padding: 30% 0 0% 0;
   margin: 0 auto;
-  font-size: 3em;
+  font-size: 2.2em;
   width: 75%;
   color: white;
 }

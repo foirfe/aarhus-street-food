@@ -2,6 +2,11 @@
   color: #fff;
   background-image: url("/src/img/Background.svg");
 
+  .backbutton img {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  }
+
   .accordion {
     margin: 0;
     padding: 0;
@@ -10,6 +15,7 @@
     border-bottom: 10px;
     background: #c1aaa4;
     max-width: 600px;
+    width: 90%;
     margin: 2rem auto;
     font-family: "Josefin Sans", sans-serif;
   }
@@ -100,7 +106,7 @@
 
   img {
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     height: 36vh;
     display: flex;
     flex-direction: column;
@@ -120,4 +126,5 @@
       font-size: 1.3em;
     }
   }
+ 
 }
