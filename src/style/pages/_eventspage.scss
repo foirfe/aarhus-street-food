@@ -19,13 +19,9 @@
       color: white;
     }
 
-    img {
-      margin-bottom: 2%;
-    }
+    
   }
-  .img-element {
-    width: 100%;
-  }
+ 
 
   .backbutton img {
     margin-left: 5%;
@@ -39,39 +35,53 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    margin-bottom: 3%;
+    margin-bottom: 15%;
     width: 90%;
     padding: 2%;
     background-color: #c1aaa4;
     border-radius: 10px;
 
     h2 {
-      margin-bottom: 1%;
+      margin-bottom: 5%;
 
       width: 90%;
     }
     h3 {
       width: 90%;
     }
+    img {
+      margin-bottom: 2%;
+      margin: 0 auto;
+      width: 90%;
+    }
+
     h4 {
       margin: 0%;
       font-family: "Montserrat", sans-serif;
       font-weight: 400;
-
       width: 90%;
     }
-    p,
-    ul {
-      font-family: "Montserrat", sans-serif;
-      line-height: 1.3em;
+    p{
+      margin: 0 auto;
+      padding: 10% 0% 10% 0%;
       width: 90%;
+      font-size: 1em;
+      line-height: 1.5em;
+      font-family: "Montserrat", sans-serif;
+      text-align: justify;
     }
 
     ul {
       list-style: none;
-      
+      margin: 0 auto;
+      padding: 10% 0% 10% 0%;
+      width: 90%;
+      font-size: 1em;
+      line-height: 1.5em;
+      font-family: "Montserrat", sans-serif;
+      text-align: justify;
     }
-    
+
     li {
       padding-top: 7%;
     }

@@ -1,6 +1,10 @@
 .joinuspage {
   color: #fff;
   background-image: url("/src/img/Background.svg");
+  a {
+    color: #8a5015;
+    
+  }
 }
 .backbutton img {
   margin-left: 5%;
@@ -60,6 +64,15 @@
 
   h3 {
     padding: 10% 5% 0% 5%;
+  }
+  img {
+    margin: 0 auto;
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 5%;
   }
 
   h2 {

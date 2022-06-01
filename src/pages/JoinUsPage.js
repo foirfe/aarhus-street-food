@@ -1,13 +1,14 @@
 import Logo from "../img/Logo.png";
 import { useNavigate } from "react-router-dom";
 import BackButton from "../components/BackButton";
+import JoinUs from "../img/JoinUs.png";
 
 export default function JoinUsPage() {
   const navigate = useNavigate();
 
   //Function til knappen
   function handleClick() {
-    navigate("/udforsk");
+    navigate("/HomePage");
   }
 
   return (
@@ -21,6 +22,7 @@ export default function JoinUsPage() {
         <div className="joinuspage-s2-text">
           <br></br>
           <h2>HAR DU EN DRØM OM AT VÆRE CHEF I EGET KØKKEN?</h2>
+          <img src={JoinUs} alt="Aarhus Street Food stadeholder" />
           <p>
             Aarhus Street Food er altid interesseret i nye ansøgere, og vi
             inviterer foodies, uddannede kokke, iværksættere, mand og kone
@@ -41,7 +43,10 @@ export default function JoinUsPage() {
             Som lejer hos Aarhus Street Food lejer du reelt kun 15 m2 gulvplads
             samt din plads i fællesskabet - container med køkken skal du selv
             medbringe. Har du spørgsmål hertil skal du fluks skrive til
-            kitchen@aarhusstreetfood.com.
+            <a href="mailto: kitchen@aarhusstreetfood.com">
+              {" "}
+              kicthen@aarhusstreetfood.com.
+            </a>
           </p>
 
           <br></br>
@@ -60,7 +65,7 @@ export default function JoinUsPage() {
       </div>
       <br></br>
       <br></br>
-      <BackButton/>
+      <BackButton />
     </div>
   );
 }

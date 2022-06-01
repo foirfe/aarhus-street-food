@@ -14,7 +14,7 @@ export default function EventsPage() {
          <div className="events">
             <h2>STREET FOOD STAND-UP</h2>
             <img className="img-element" src={StandUp} alt="stand up event" />
-            <h3>Den første tirsdag i måneden kl. 19:00</h3>
+            <h3>DEN FØRSTE TIRSDAG HVER MÅNED kl. 19:00</h3>
             <p>
                Vores splinternye område, Grøn Stue, danner rammerne for en awesome aften og giver plads til 200 glade stand-up gæster. Aftenens lokale vært sammensætter et fedt program bestående af et
                hold dygtige komikere. Følg med på Facebook og Instagram for at holde dig opdateret. <br></br> Køb din billet for 50 kr. <br />
@@ -24,21 +24,22 @@ export default function EventsPage() {
          <div className="events">
             <h2>SOMMERBIO 2022</h2>
             <img className="img-element" src={SommerBio} alt="sommerbio" />
-            <h3>Kom til gratis filmvisninger i Garagens Sommerbio fra 14. juni til 16. august 2022</h3>
+            <h3>KOM TIL GRATIS SOMMER-BIO FRA 14. JUNI til 16. AUGUST 2022.</h3>
             <p>Læn dig tilbage og nyd sjove, romantiske og uhyggelige film fra både ind- og udland, når sommer, street food og film under åben himmel forenes. Dørene åbner klokken 19.00.</p>
-            <h4>Program:</h4>
+           
             <br></br>
             <ul>
-              <p> Tirsdag d. 14. juni</p> <br></br>Retfærdighedens Ryttere
-               <li>Tirsdag d. 21 juni <br></br> 10 Things I Hate About You</li>
-               <li>Tirsdag d. 28 juni <br></br>Little Miss Sunshine VS. Captain Fantastic (Afstemning Facebook)</li>
-               <li>Tirsdag d. 5. juli <br></br>Ternet Ninja 2</li>
-               <li>Tirsdag d. 12 juli<br></br> Juno</li>
-               <li>Tirsdag d. 19 juli <br></br> CODA</li>
-               <li>Tirsdag d. 26. juli<br></br> Spy</li>
-               <li>Tirsdag d. 2. august <br></br> Gone Girl</li>
-               <li>Tirsdag d. 9 august <br></br>The Perks of being a Wallflower</li>
-               <li>Tirsdag d. 16 august <br></br> Druk</li>
+            <h4>FILM PROGRAM</h4>
+              <li> <strong>Tirsdag d. 14. juni</strong><br></br>Retfærdighedens Ryttere</li> 
+               <li><strong>Tirsdag d. 21 juni </strong><br></br> 10 Things I Hate About You</li>
+               <li><strong>Tirsdag d. 28 juni</strong> <br></br>Little Miss Sunshine VS. Captain Fantastic (Afstemning Facebook)</li>
+               <li><strong>Tirsdag d. 5. juli</strong> <br></br>Ternet Ninja 2</li>
+               <li><strong>Tirsdag d. 12 juli</strong><br></br> Juno</li>
+               <li><strong>Tirsdag d. 19 juli </strong><br></br> CODA</li>
+               <li><strong>Tirsdag d. 26. juli</strong><br></br> Spy</li>
+               <li><strong>Tirsdag d. 2. august </strong><br></br> Gone Girl</li>
+               <li><strong>Tirsdag d. 9 august</strong> <br></br>The Perks of being a Wallflower</li>
+               <li><strong>Tirsdag d. 16 august</strong> <br></br> Druk</li>
                </ul>
          </div>
          <BackButton/>
