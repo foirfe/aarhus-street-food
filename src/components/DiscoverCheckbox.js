@@ -7,6 +7,7 @@ import IconParkOutlineCakeFive from "../CookingIcons/IconParkOutlineCakeFive";
 import MdiFruitGrapesOutline from "../CookingIcons/MdiFruitGrapesOutline";
 import IconParkOutlineCarrot from "../CookingIcons/IconParkOutlineCarrot";
 import EpChicken from "../CookingIcons/EpChicken";
+import DiscoverDropDown from "./DiscoverDropDown";
 
 export default function DiscoverCheckbox() {
    const [errormessage, setErrorMessage] = useState("");
@@ -121,8 +122,11 @@ export default function DiscoverCheckbox() {
                            <span className="span-text">Plantebaseret</span>
                         </div>
                      </label>
+                  
                   </div>
+                  <DiscoverDropDown />
                </div>{/* row 2 slut */}
+               
             </div>
             <button>SE DINE RETTER</button>
             <p>{errormessage}</p>

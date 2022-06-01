@@ -1,5 +1,4 @@
 import DiscoverCheckbox from "../components/DiscoverCheckbox";
-import DiscoverDropDown from "../components/DiscoverDropDown";
 import Logo from "../img/Logo.png";
 import {useEffect} from "react";
 import BackButton from "../components/BackButton";
@@ -26,8 +25,9 @@ removeDropdownItems();
          <h3>Vælg nogle smage du kan lide, og få nogle forslag til din ynglingsret.</h3>
          <div className="checkbox">
             <DiscoverCheckbox />  
+            
          </div>
-         <DiscoverDropDown />
+        
          <BackButton/>
       </div>
    );
