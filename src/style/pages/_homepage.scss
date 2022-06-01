@@ -122,16 +122,29 @@
       width: 100%;
       object-fit: cover;
     }
+    .nameandnationality{
+      background-color: rgba(255, 255, 255, 0.8);
+      display: flex;
+      flex-direction: column-reverse;
+      max-width: 80%;
+      position: absolute;
+      padding:4% 5% 5% 2%;
+      .nationality{
+        display: flex;
+
+      }
+      img{
+width: 20px;
+height: 20px;
+      }
+
+    }
     h3 {
       text-transform: uppercase;
-      position: absolute;
       color: #1d3029;
       margin: 8% 0 0% 0%;
       font-size: 1.3em;
-      background-color: #ffffff;
-      padding:4% 5% 5% 2%;
-      opacity: 0.8;
-      max-width: 80%;
+     
      
     }
     @media only screen and (min-width: 1024px) {
