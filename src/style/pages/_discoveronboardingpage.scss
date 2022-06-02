@@ -1,4 +1,11 @@
 .discoveronboardingpage{
+    
+color: #1d3029;
+    h3 {
+        width: 90%;
+        font-size: 1.9em;
+    }
+
     .discover-banner {
         height: 80vh;
         display: flex;
@@ -14,21 +21,51 @@
           width: 75%;
           color: white;
         }
+
+    
 }
 
 .onboarding-textbox {
-    overflow:scroll;
-    background-color: #fff;
-    height: 70vh;
-    width: 100%;
-    padding-bottom: 30%;
+  background-color: #fff;
+  opacity: 0.8;
+  box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
+    padding-top: 10%;
+    padding-left: 5%;
+
+    .guide{
+        margin: 0 auto;
+        width: 90%;
+      
+        flex-direction: column;
+        justify-content: space-around;
+    p{
+       
+        font-weight: 400;
+        width: 90%;     
 }
-h3 {
-    width: 90%;
-    font-size: 1.9em;
 }
-p{width: 90%;
-    font-size: 1em;
-    font-family: 'Montserrat';
+.step-3{
+    padding-bottom: 7%;
 }
+button {
+    background: #d79f55;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    border-style: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 2% 7% 2% 7%;
+    margin-bottom: 15%;
+    margin-right: auto;
+    margin-left: 5%;
+    bottom: 10%;
+    left: 2%;
+  }
+}
+
+
 }
