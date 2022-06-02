@@ -44,7 +44,7 @@ export default function HomePage() {
         <img src={Logo} alt="Aarhus Street Food" />
         <p>
           Lyst til at prøve noget nyt? Prøv vores nye{" "}
-          <span onClick={handleClick}>discover</span> funktion og find din nye
+          <span className="discovertext" onClick={handleClick}>discover</span> funktion og find din nye
           yndlingsret
         </p>
         <button onClick={handleClick}>Prøv den her</button>

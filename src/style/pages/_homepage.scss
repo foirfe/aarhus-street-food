@@ -14,6 +14,17 @@
       width: 90%;
       text-transform: uppercase;
       padding-bottom: 10%;
+     
+      .discovertext{
+        text-shadow: 2px 2px #d79f55;
+        transition: all .5s;
+        &:hover{
+          cursor: pointer;
+          color: #b9c7c4;
+          font-size: 1.35em;
+          text-shadow: 2px 2px #1d3029;
+        }
+      }
     }
     h1 {
       text-align: center;
@@ -43,49 +54,49 @@
     }
   }
   .curated {
-    h2 {
-      padding-left: 5%;
-      font-size: 1em;
-    }
     .curatedplace {
       text-align: center;
       width: 100%;
       h2 {
-        position: absolute;
         color: #1d3029;
         font-weight: bold;
-        font-size: 1em;
+        padding-top: 5%;
         text-align: left;
-        background-color: #ffffff;
-        padding: 4% 5% 5% 2%;
-        opacity: 0.8;
-        max-width: 80%;
+        margin: 0;
+        background-color: #fff;
       }
       img {
         width: 100%;
         margin: 0 auto;
         object-fit: cover;
-        height: 20vh;
+        height: 30vh;
       }
     }
     .curated_nationality {
       background-color: #fff;
       opacity: 0.9;
       display: flex;
-      flex-direction: row;
-      height: 20%;
+      flex-direction: column;
+      justify-content: center;
+      height: 50%;
       position: absolute;
-      width: 70%;
+      width: 80%;
+      padding-left: 5%;
+      height: 50%;
       bottom: 0;
-
+.nationality{
+  display: flex;
+  align-items: center;
+  height: 50%;
+}
       p {
         font-family: "Josefin Sans", sans-serif;
-        margin: 0 0 0 5%;
       }
 
       img {
         width: 15px;
         height: 15px;
+        margin: 0;
       }
     }
   }
@@ -194,21 +205,20 @@
       }
     }
   }
+  //End of RestaurantCard
+
   //Viewport for Page - Desktop
   @media only screen and (min-width: 1024px) {
     .homepagebanner {
-      background: url(../img/HomePageBannerDesktop.png);
-      background-repeat: no-repeat;
-      background-size: cover;
       h1 {
         padding: 5% 0 2.5% 0;
       }
       p {
         width: inherit;
+        color: white;
         margin-right: auto;
         margin-left: 5%;
         display: inline;
-        background: rgba(0, 0, 0, 0.315);
       }
       button {
         padding: 1%;
@@ -217,6 +227,20 @@
     .desktopflex {
       display: flex;
       flex-wrap: wrap;
+    }
+    .curated{
+      h2{
+        font-size: 2em;
+        margin-left: 2%;
+      }
+      .curated_nationality{
+        h2{
+          font-size: 3em;
+        }
+        p{
+          font-size: 1.25em;
+        }
+      }
     }
   }
 }
