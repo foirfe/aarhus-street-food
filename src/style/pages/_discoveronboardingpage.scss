@@ -1,5 +1,34 @@
 .discoveronboardingpage{
-    h1{
-        font-size: 4em;
-    }
+    .discover-banner {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+        h1 {
+          text-align: center;
+          padding: 30% 0 0% 0;
+          margin: 0 auto;
+          font-size: 2.2em;
+          width: 75%;
+          color: white;
+        }
+}
+
+.onboarding-textbox {
+    overflow:scroll;
+    background-color: #fff;
+    height: 70vh;
+    width: 100%;
+    padding-bottom: 30%;
+}
+h3 {
+    width: 90%;
+    font-size: 1.9em;
+}
+p{width: 90%;
+    font-size: 1em;
+    font-family: 'Montserrat';
+}
 }

@@ -13,6 +13,7 @@ export default function DiscoverOnboardingPage(){
             <h1>DISCOVER</h1>
             <img src={Logo} alt="Århus street food" />
          </div>
+         <div className="onboarding-textbox">
          <h3>Hvordan gør du?</h3>
          <p>Det er rigtigt nemt, se bare herunder. 3 nemme trin og så er du klar til at bestille!</p>
          <div className="guide">
@@ -28,6 +29,7 @@ export default function DiscoverOnboardingPage(){
              </div>
              <button onClick={handleClick}>Prøv Nu</button>
          </div>
+        </div>
         </div>
     )
 }
