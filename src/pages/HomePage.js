@@ -52,6 +52,7 @@ export default function HomePage() {
       <div className="curated">
         <h2>Ugens udvalgte boder</h2>
         <CuratedRestaurants />
+        
       </div>
       <SearchBar setValue={setSearchValue} />
       <p className="errormessage">{errormessage}</p>

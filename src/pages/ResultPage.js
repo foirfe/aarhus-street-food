@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { useNavigate } from "react-router-dom";
 import BackButton from "../components/BackButton";
+import Logo from "../img/Logo.png"
 
 export default function ResultPage() {
    const navigate = useNavigate();
@@ -91,8 +92,12 @@ function handleClick(menuItem){
       <div className="resultpage">
          <div className="result-banner">
          <h1>Discover</h1>
+         <img src={Logo} alt="Århus street food" />
+         
+         
+         
          </div>
-         <p>Swipe igennem og opdag nye retter</p>
+         <p>Swipe igennem resultaterne og opdag dine nye yndlings retter</p>
          <div>
             <Swiper
          spaceBetween={20}
@@ -106,8 +111,12 @@ function handleClick(menuItem){
             {menu.map((menuItem)=>(
                <SwiperSlide key={menuItem.id}>
                   <div className="resultcard" onClick={event => handleClick(menuItem)}>
-                  <h2>{menuItem.name}</h2>
+                   <h2>{menuItem.name}</h2>
+                  <br></br>
+                  <br></br>
                   <h3>{menuItem.restaurant}</h3>
+                 
+                  
                   <img src={menuItem.image_url} alt={menuItem.name}/>
                   </div>
                </SwiperSlide>
